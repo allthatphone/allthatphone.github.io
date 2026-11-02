@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://allthatphone.github.io/sitemap.xml
-#DaumWebMasterTool:926a5aff3aec3ded15a496faf04c509a7cd2e96234073e734d8c4866b8452f18+w9gPPOcRKdg==
+#DaumWebMasterTool:9b01bb3f6f703439ac5a86c3691d84ce6ca05b8ac96d6d013d1193a5a8993867:y9pY72z5HH+w9gPPOcRKdg==
