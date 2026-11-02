@@ -1,4 +1,6 @@
-# 폰값노트 작성 가이드 (자동 발행 Claude가 매번 먼저 읽는 규칙)
+# 올댓폰 가격노트 작성 가이드 (자동 발행 Claude가 매번 먼저 읽는 규칙)
+
+> 이 가이드와 함께 ops/LEARNING.md(최신 분석·가설·다음 주 시험)를 반드시 읽고, 그 시험 내용을 해당 글에 적용한다.
 
 ## 목적
 "모델명 + 가격/출고가/스펙/비교/용량/색상/출시일" 검색과 AI 답변(ChatGPT·구글 AI 개요·네이버 AI 브리핑·퍼플렉시티)에서
@@ -33,7 +35,7 @@
 
 ## 머리말(front matter) 필수 항목
 title, slug(영문 소문자-하이픈), date, updated, model, brand, keyword, description(155자 이내), summary, prices(있으면), specs, faq, sources.
-제목 형식: "<모델> <검색어 핵심> — <숫자 한 개>, <부가 정보>" (예: 아이폰18 프로 가격 총정리 — 용량별 출고가, …)
+제목 형식: 모델명을 맨 앞에(모델명 단독 검색이 가장 크다 — LEARNING 관찰 1) "<모델> 가격·출고가·스펙 — <숫자 한 개>, <부가 정보>". 키워드 대기열의 head_keyword(네이버 대표 검색어)를 제목·summary 첫 문장에 넣고, 보조 키워드(시트 「가격노트 키워드」에서 그 글로 묶인 것)는 FAQ 질문·소제목에 자연스럽게 넣는다. (예: 아이폰18 프로 가격 총정리 — 용량별 출고가, …)
 
 ## 발행 절차 (저장소 allthatphone/allthatphone.github.io)
 - source 브랜치 = 원본(build.py·content·ops), main 브랜치 = 게시되는 사이트(dist 내용만). 사이트 주소 https://allthatphone.github.io

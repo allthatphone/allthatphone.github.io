@@ -1,19 +1,55 @@
-priority,type,keyword,model,brand,status,url,note
-1,price,아이폰18 프로 가격,아이폰18 프로,애플,done,/iphone-18-pro-price-spec/,2TB 가격 보도 불일치로 제외
-1,price,갤럭시 Z플립8 가격,갤럭시 Z플립8,삼성,done,/galaxy-z-flip8-price-spec/,
-1,price,갤럭시 Z폴드8 가격,갤럭시 Z폴드8,삼성,todo,,폴드8(여권형)·폴드8 울트라 구분 필수
-1,price,갤럭시 S26 울트라 가격,갤럭시 S26 울트라,삼성,todo,,
-1,price,아이폰 듀오 가격,아이폰 듀오,애플,todo,,256GB 329만원 외 용량 확인 필요
-2,price,갤럭시 S26 가격,갤럭시 S26,삼성,todo,,기본·플러스 함께
-2,spec,아이폰18 프로맥스 스펙,아이폰18 프로맥스,애플,todo,,공식 사양 페이지 확보 후
-2,compare,아이폰18 프로 vs 갤럭시 S26 울트라,아이폰18 프로,비교,todo,,
-2,option,갤럭시 Z플립8 256GB 512GB 차이,갤럭시 Z플립8,삼성,todo,,
-2,spec,갤럭시 Z폴드8 스펙,갤럭시 Z폴드8,삼성,todo,,
-3,price,아이폰17 가격,아이폰17,애플,todo,,구형 할인 수요
-3,compare,갤럭시 Z플립8 vs 플립7,갤럭시 Z플립8,비교,todo,,
-3,price,갤럭시 A57 가격,갤럭시 A57,삼성,todo,,출시 여부 먼저 확인
-3,budget,100만원 이하 휴대폰 추천,중저가,비교,todo,,
-3,option,아이폰18 프로 색상,아이폰18 프로,애플,todo,,
-3,compare,아이폰18 프로 vs 아이폰17 프로,아이폰18 프로,비교,todo,,
-3,price,갤럭시 S26 엣지 가격,갤럭시 S26 엣지,삼성,todo,,출시 여부 먼저 확인
-3,budget,효도폰 추천 가격,중저가,비교,todo,,
+priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,head_keyword
+1,price,아이폰 듀오 가격,아이폰 듀오,애플,todo,,네이버 연관키워드 11/02 기준,iphone-duo-price-spec,601900,중간,아이폰듀오
+1,price,아이폰18 프로 가격,아이폰18 프로,애플,done,/iphone-18-pro-price-spec/,네이버 연관키워드 11/02 기준 · 2TB 가격 보도 불일치로 제외,iphone-18-pro-price-spec,448970,높음,아이폰18프로
+1,price,갤럭시 S26 가격,갤럭시 S26,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s26-price-spec,277240,높음,갤럭시S26
+1,price,아이폰18 가격,아이폰18,애플,todo,,"네이버 연관키워드 11/02 기준 · 국내 미출시(공식·언론 확정 정보만, 루머 금지)",iphone-18-price-spec,188600,높음,아이폰18
+1,price,아이폰17 가격,아이폰17,애플,todo,,네이버 연관키워드 11/02 기준,iphone-17-price-spec,149500,높음,아이폰17
+1,price,갤럭시 S26 울트라 가격,갤럭시 S26 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s26-ultra-price-spec,89700,중간,갤럭시S26울트라
+1,price,아이폰17 프로 가격,아이폰17 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-17-pro-price-spec,112100,높음,아이폰17프로
+1,budget,스마트폰 추천·비교 (가격대별),일반,비교,todo,,네이버 연관키워드 11/02 기준,phone-by-budget,92890,중간,스마트폰추천
+1,price,갤럭시 Z폴드8 가격,갤럭시 Z폴드8,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-fold8-price-spec,99970,높음,갤럭시Z폴드8
+1,price,갤럭시 Z플립8 가격,갤럭시 Z플립8,삼성,done,/galaxy-z-flip8-price-spec/,네이버 연관키워드 11/02 기준,galaxy-z-flip8-price-spec,76220,높음,갤럭시Z플립8
+1,price,갤럭시 S25 가격,갤럭시 S25,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s25-price-spec,108200,높음,갤럭시S25
+1,price,아이폰18 프로맥스 가격,아이폰18 프로맥스,애플,todo,,네이버 연관키워드 11/02 기준,iphone-18-pro-max-price-spec,61800,높음,아이폰18프로맥스
+1,price,폴더폰 가격,폴더폰,기타,todo,,네이버 연관키워드 11/02 기준,folder-phone-price-spec,47205,높음,폴더폰
+1,compare,자급제 vs 통신사 구매 비교,일반,비교,todo,,네이버 연관키워드 11/02 기준,unlocked-vs-carrier,38570,중간,자급제폰
+1,price,아이폰16 가격,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-price-spec,64525,높음,아이폰16
+2,price,아이폰16 프로 가격,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-price-spec,60370,높음,아이폰16PRO
+2,price,갤럭시 S24 가격,갤럭시 S24,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-price-spec,59190,높음,갤럭시S24
+2,price,아이폰17e 가격,아이폰17e,애플,todo,,네이버 연관키워드 11/02 기준,iphone-17e-price-spec,38950,높음,아이폰17E
+2,price,아이폰 에어 가격,아이폰 에어,애플,todo,,네이버 연관키워드 11/02 기준,iphone-air-price-spec,32330,높음,아이폰에어
+2,price,갤럭시 A37 가격,갤럭시 A37,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a37-price-spec,30580,높음,갤럭시A37
+2,price,갤럭시 S25 울트라 가격,갤럭시 S25 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s25-ultra-price-spec,42345,높음,갤럭시S25울트라
+2,compare,휴대폰 싸게 사는 법,일반,비교,todo,,네이버 연관키워드 11/02 기준,buy-phone-cheap,32750,높음,휴대폰싸게사는법
+2,price,공신폰 가격,공신폰,기타,todo,,네이버 연관키워드 11/02 기준,study-phone-price-spec,23460,높음,공신폰
+2,price,아이폰15 가격,아이폰15,애플,todo,,네이버 연관키워드 11/02 기준,iphone-15-price-spec,32675,높음,아이폰15
+2,compare,번호이동 vs 기기변경 차이,일반,비교,todo,,네이버 연관키워드 11/02 기준,mnp-vs-upgrade,25390,높음,스마트폰기기변경
+2,price,갤럭시 S26 플러스 가격,갤럭시 S26 플러스,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s26-plus-price-spec,21680,높음,갤럭시S26플러스
+2,price,갤럭시 Z플립7 가격,갤럭시 Z플립7,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-flip7-price-spec,30750,높음,갤럭시Z플립7
+2,price,갤럭시 Z폴드8 울트라 가격,갤럭시 Z폴드8 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-fold8-ultra-price-spec,21420,높음,폴드8울트라
+2,price,갤럭시 A시리즈 가격,갤럭시 A시리즈,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a-series-price-spec,17240,높음,갤럭시A시리즈
+2,price,키즈폰 가격,키즈폰,기타,todo,,네이버 연관키워드 11/02 기준,kids-phone-price-spec,16990,높음,키즈폰
+2,price,갤럭시 S24 울트라 가격,갤럭시 S24 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-ultra-price-spec,23350,높음,갤럭시S24울트라
+2,price,효도폰 가격,효도폰,기타,todo,,네이버 연관키워드 11/02 기준,senior-phone-price-spec,11690,높음,효도폰
+2,compare,공기계 구매 가이드,일반,비교,todo,,네이버 연관키워드 11/02 기준,unlocked-used-guide,12630,높음,휴대폰공기계
+2,price,갤럭시 A57 가격,갤럭시 A57,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a57-price-spec,10710,높음,갤럭시A57
+2,price,아이폰16 프로맥스 가격,아이폰16 프로맥스,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-max-price-spec,10830,높음,아이폰16프로맥스
+3,price,갤럭시 퀀텀 가격,갤럭시 퀀텀,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-quantum-price-spec,7550,높음,갤럭시퀀텀5
+3,price,갤럭시 S24 FE 가격,갤럭시 S24 FE,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-fe-price-spec,8250,높음,갤럭시S24FE
+3,price,갤럭시 와이드 가격,갤럭시 와이드,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-wide-price-spec,5680,높음,갤럭시와이드
+3,price,갤럭시 버디 가격,갤럭시 버디,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-buddy-price-spec,4940,높음,갤럭시버디3
+3,option,갤럭시 S24 자급제·구매방법,갤럭시 S24,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-unlocked,6145,높음,갤럭시S24자급제
+3,compare,공시지원금 vs 선택약정,일반,비교,todo,,네이버 연관키워드 11/02 기준,subsidy-vs-discount,4010,높음,통신사이동지원금
+3,option,아이폰16 프로 색상·용량,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-options,3880,높음,아이폰16프로색상
+3,option,아이폰16 자급제·구매방법,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-unlocked,3210,높음,아이폰16자급제
+3,spec,아이폰16 스펙,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-spec,2450,중간,아이폰16크기
+3,option,아이폰16 색상·용량,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-options,2985,높음,아이폰16색상
+3,option,아이폰16 프로 자급제·구매방법,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-unlocked,2730,높음,아이폰16프로자급제
+3,price,아이폰16 출시일,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-release,2350,높음,아이폰16출시일
+3,option,폴더폰 자급제·구매방법,폴더폰,기타,todo,,네이버 연관키워드 11/02 기준,folder-phone-unlocked,1510,높음,폴더폰자급제
+3,price,갤럭시 S25 출시일,갤럭시 S25,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s25-release,1970,높음,갤럭시S25출시일
+3,option,갤럭시 S24 울트라 자급제·구매방법,갤럭시 S24 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-ultra-unlocked,1750,높음,S24울트라자급제
+3,spec,아이폰16 프로 스펙,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-spec,1660,높음,아이폰16프로크기
+3,price,아이폰16 프로 출시일,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-release,1500,높음,아이폰16프로출시일
+3,price,학생폰 가격,학생폰,기타,todo,,네이버 연관키워드 11/02 기준,student-phone-price-spec,710,높음,학생폰
+3,compare,휴대폰 공동구매란,일반,비교,todo,,네이버 연관키워드 11/02 기준,phone-group-buy,710,높음,핸드폰공동구매
