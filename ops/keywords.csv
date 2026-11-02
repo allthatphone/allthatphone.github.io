@@ -1,5 +1,5 @@
 priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,head_keyword
-1,price,아이폰 듀오 가격,아이폰 듀오,애플,todo,,네이버 연관키워드 11/02 기준,iphone-duo-price-spec,601900,중간,아이폰듀오
+1,price,아이폰 듀오 가격,아이폰 듀오,애플,done,/iphone-duo-price-spec/,네이버 연관키워드 11/02 기준 · T1 적용(첫 문단 한 줄 결론+숫자3),iphone-duo-price-spec,601900,중간,아이폰듀오
 1,price,아이폰18 프로 가격,아이폰18 프로,애플,done,/iphone-18-pro-price-spec/,네이버 연관키워드 11/02 기준 · 2TB 가격 보도 불일치로 제외,iphone-18-pro-price-spec,448970,높음,아이폰18프로
 1,price,갤럭시 S26 가격,갤럭시 S26,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s26-price-spec,277240,높음,갤럭시S26
 1,price,아이폰18 가격,아이폰18,애플,todo,,"네이버 연관키워드 11/02 기준 · 국내 미출시(공식·언론 확정 정보만, 루머 금지)",iphone-18-price-spec,188600,높음,아이폰18
