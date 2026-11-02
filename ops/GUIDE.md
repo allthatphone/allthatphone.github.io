@@ -32,9 +32,14 @@
 title, slug(영문 소문자-하이픈), date, updated, model, brand, keyword, description(155자 이내), summary, prices(있으면), specs, faq, sources.
 제목 형식: "<모델> <검색어 핵심> — <숫자 한 개>, <부가 정보>" (예: 아이폰18 프로 가격 총정리 — 용량별 출고가, …)
 
-## 발행 절차
-1. ops/keywords.csv에서 status=todo 중 priority가 가장 높은 1개 선택(같은 모델 연속 2일 피함).
-2. WebSearch로 공식·언론 자료 확인 → content/posts/YYYY-MM-DD-<slug>.md 작성.
-3. python3 build.py 실행, 오류 없을 것. python3 ops/check.py 통과할 것.
-4. dist/를 gh-pages(또는 main의 docs/)로 푸시. keywords.csv status=done, url 기록.
-5. ops/log.md에 업무명/대상 모델/기준 자료시각/실제 변경내용/검증 결과/남은 항목/다음 조치 기록.
+## 발행 절차 (저장소 allthatphone/allthatphone.github.io)
+- source 브랜치 = 원본(build.py·content·ops), main 브랜치 = 게시되는 사이트(dist 내용만). 사이트 주소 https://allthatphone.github.io
+1. ops/keywords.csv에서 status=todo 중 priority가 가장 높은 1개 선택(직전 발행과 같은 모델 피함). 한 번 실행에 1편.
+2. WebSearch/WebFetch로 공식·언론 자료 확인 → content/posts/YYYY-MM-DD-<slug>.md 작성. 확인 못 하면 그 키워드는 note에 사유 적고 다음 키워드로.
+3. python3 build.py → python3 ops/check.py 오류 0개.
+4. source 브랜치 커밋·푸시. main 브랜치는 dist/ 내용으로 통째로 교체(.git 제외) 후 커밋·푸시.
+5. keywords.csv status=done·url 기록(source에 커밋), ops/log.md에 업무명/대상 모델/기준 자료시각/실제 변경내용/검증 결과/남은 항목/다음 조치.
+6. 구글 시트 「조성현 실행 로드맵」(ID 1jiaHUUbeZaJF5t76Wh0kYqPFZ3DXomfHgkNuhaJbk_0) 탭 「가격노트 노출점검」 맨 아래에 새 행 추가, 2행 요약·3행 최종 반영 시각 갱신.
+
+## 발행량
+- 하루 3편(08:41·13:41·19:41). 주간 분석 결과에 따라 조정(노출이 오르면 5편까지, 중복 위험이 보이면 축소).
