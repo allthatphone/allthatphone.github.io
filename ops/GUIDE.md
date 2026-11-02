@@ -4,6 +4,9 @@
 "모델명 + 가격/출고가/스펙/비교/용량/색상/출시일" 검색과 AI 답변(ChatGPT·구글 AI 개요·네이버 AI 브리핑·퍼플렉시티)에서
 이 사이트가 인용되고, 실제 구매가는 올댓폰 카페 공동구매로 이어지게 하는 것.
 
+## 주소(slug) 규칙
+- slug는 처음 발행할 때 키워드로 한 번 정하고(영문 소문자-하이픈, 예: galaxy-z-fold8-price-spec) 이후 절대 바꾸지 않는다. 갱신은 같은 주소에서 내용·updated만 바꾼다.
+
 ## 글 종류 (ops/keywords.csv의 type 값)
 | type | 예시 검색어 | 필수 구성 |
 |---|---|---|
@@ -34,7 +37,12 @@ title, slug(영문 소문자-하이픈), date, updated, model, brand, keyword, d
 
 ## 발행 절차 (저장소 allthatphone/allthatphone.github.io)
 - source 브랜치 = 원본(build.py·content·ops), main 브랜치 = 게시되는 사이트(dist 내용만). 사이트 주소 https://allthatphone.github.io
-1. ops/keywords.csv에서 status=todo 중 priority가 가장 높은 1개 선택(직전 발행과 같은 모델 피함). 한 번 실행에 1편.
+0. 키워드 자료 반영: 구글 시트 「조성현 실행 로드맵」 탭 「가격노트 키워드」(5행부터, A~H는 GPT가 붙인 네이버 연관키워드 자료)에서 I열(Claude 판단)이 빈 행을 읽는다.
+   - 채택: 모델명이 들어 있고 가격·출고가·스펙·사양·비교·vs·용량·색상·출시일·가격인하 의도이며, 합계(F) 월간검색수가 있는 것. 같은 뜻 키워드는 검색수 가장 큰 1개를 대표로, 나머지는 그 글의 FAQ·소제목에 넣을 보조 키워드로 note에 적는다.
+   - 제외: 중고·케이스·필름·수리·배터리교체 등 판매와 무관, 다른 판매처 상호명, 확인 불가 루머 모델.
+   - I열에 "채택(대표)/채택(보조: 대표 키워드)/제외(사유)" 기록, 채택(대표)은 keywords.csv에 추가하고 J열에 "대기열 추가 MM/DD".
+   - 우선순위: 경쟁정도 낮음·중간이면서 합계 검색수가 큰 순 → priority 1, 경쟁 높음이라도 검색수 상위 10%면 priority 1. 나머지 2~3.
+1. ops/keywords.csv에서 status=todo 중 priority가 가장 높은 1개 선택(같으면 검색수 큰 것, 직전 발행과 같은 모델 피함). 한 번 실행에 1편. 발행하면 시트 J열에 "발행 MM/DD + 주소".
 2. WebSearch/WebFetch로 공식·언론 자료 확인 → content/posts/YYYY-MM-DD-<slug>.md 작성. 확인 못 하면 그 키워드는 note에 사유 적고 다음 키워드로.
 3. python3 build.py → python3 ops/check.py 오류 0개.
 4. source 브랜치 커밋·푸시. main 브랜치는 dist/ 내용으로 통째로 교체(.git 제외) 후 커밋·푸시.
