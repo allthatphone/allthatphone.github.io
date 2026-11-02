@@ -1,0 +1,19 @@
+priority,type,keyword,model,brand,status,url,note
+1,price,아이폰18 프로 가격,아이폰18 프로,애플,done,/iphone-18-pro-price-spec/,2TB 가격 보도 불일치로 제외
+1,price,갤럭시 Z플립8 가격,갤럭시 Z플립8,삼성,done,/galaxy-z-flip8-price-spec/,
+1,price,갤럭시 Z폴드8 가격,갤럭시 Z폴드8,삼성,todo,,폴드8(여권형)·폴드8 울트라 구분 필수
+1,price,갤럭시 S26 울트라 가격,갤럭시 S26 울트라,삼성,todo,,
+1,price,아이폰 듀오 가격,아이폰 듀오,애플,todo,,256GB 329만원 외 용량 확인 필요
+2,price,갤럭시 S26 가격,갤럭시 S26,삼성,todo,,기본·플러스 함께
+2,spec,아이폰18 프로맥스 스펙,아이폰18 프로맥스,애플,todo,,공식 사양 페이지 확보 후
+2,compare,아이폰18 프로 vs 갤럭시 S26 울트라,아이폰18 프로,비교,todo,,
+2,option,갤럭시 Z플립8 256GB 512GB 차이,갤럭시 Z플립8,삼성,todo,,
+2,spec,갤럭시 Z폴드8 스펙,갤럭시 Z폴드8,삼성,todo,,
+3,price,아이폰17 가격,아이폰17,애플,todo,,구형 할인 수요
+3,compare,갤럭시 Z플립8 vs 플립7,갤럭시 Z플립8,비교,todo,,
+3,price,갤럭시 A57 가격,갤럭시 A57,삼성,todo,,출시 여부 먼저 확인
+3,budget,100만원 이하 휴대폰 추천,중저가,비교,todo,,
+3,option,아이폰18 프로 색상,아이폰18 프로,애플,todo,,
+3,compare,아이폰18 프로 vs 아이폰17 프로,아이폰18 프로,비교,todo,,
+3,price,갤럭시 S26 엣지 가격,갤럭시 S26 엣지,삼성,todo,,출시 여부 먼저 확인
+3,budget,효도폰 추천 가격,중저가,비교,todo,,

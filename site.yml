@@ -1,0 +1,12 @@
+# 사이트 기본 설정 — 이름·주소가 정해지면 이 파일만 바꾸면 됩니다.
+name: 올댓폰 가격노트
+tagline: 휴대폰 모델별 출고가·스펙·실구매가를 한눈에
+description: 최신 휴대폰 모델의 국내 출고가, 용량별 가격, 핵심 스펙, 통신사 공동구매로 실제 사는 방법을 공식 자료 기준으로 정리합니다.
+base_url: https://allthatphone.github.io
+lang: ko
+cafe_name: 올댓폰 카페
+cafe_url: https://cafe.naver.com/cutebell
+cafe_note: 이 사이트의 공동구매 안내는 운영자와 관련된 올댓폰 카페 게시글을 기준으로 합니다.
+verification:
+  naver: ""
+  google: ""
