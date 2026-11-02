@@ -203,7 +203,11 @@ def build():
            f'<link>{BASE}/</link><description>{esc(SITE["description"])}</description><language>ko</language>\n{items}</channel></rss>\n')
     (DIST / "rss.xml").write_text(rss, encoding="utf-8")
 
-    (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
+    robots = f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n"
+    daum = (SITE.get("verification") or {}).get("daum")
+    if daum:
+        robots += f"{daum}\n"
+    (DIST / "robots.txt").write_text(robots, encoding="utf-8")
 
     llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
