@@ -208,6 +208,8 @@ def build():
     if daum:
         robots += f"{daum}\n"
     (DIST / "robots.txt").write_text(robots, encoding="utf-8")
+    if SITE.get("indexnow_key"):
+        (DIST / f"{SITE['indexnow_key']}.txt").write_text(SITE["indexnow_key"], encoding="utf-8")
 
     llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
