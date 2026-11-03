@@ -11,3 +11,6 @@
 
 ## 2026-11-03 20:25
 업무명: IndexNow 키 파일 추가 / 대상: 사이트 전체 / 실제 변경내용: site.yml indexnow_key, build.py가 <key>.txt 생성 / 검증 결과: check.py 오류 0, robots.txt 다음 인증 줄 유지 / 다음 조치: 게시 후 IndexNow로 글 URL 제출(앱 브라우저), 이후 새 글은 GPT 우편함으로 제출
+
+## 2026-11-03 20:30
+업무명: 텍스트 사이트맵 추가 / 대상: 사이트 전체 / 기준 자료시각: GPT R-002·R-003 결과(20:21) / 실제 변경내용: sitemap.txt 생성, robots.txt에 Sitemap 줄 추가(다음 인증 줄 유지) / 검증 결과: check.py 오류 0 / 남은 항목: 구글 sitemap.xml 읽을 수 없음 지속, URL검사 6건 미색인(알려지지 않음 5·크롤링됨-미색인 1) / 다음 조치: GPT 우편함 R-005로 구글 sitemap.txt 제출·URL별 색인 요청, Bing 사이트맵 제출

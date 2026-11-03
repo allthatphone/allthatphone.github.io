@@ -192,6 +192,7 @@ def build():
     for u, d in urls:
         sm += f"<url><loc>{esc(u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
     (DIST / "sitemap.xml").write_text(sm + "</urlset>\n", encoding="utf-8")
+    (DIST / "sitemap.txt").write_text("\n".join(u for u, _ in urls) + "\n", encoding="utf-8")
 
     # RSS 2.0 (네이버는 Atom을 못 읽은 사례가 있어 RSS 2.0으로 제공)
     def rfc(d):
@@ -203,7 +204,7 @@ def build():
            f'<link>{BASE}/</link><description>{esc(SITE["description"])}</description><language>ko</language>\n{items}</channel></rss>\n')
     (DIST / "rss.xml").write_text(rss, encoding="utf-8")
 
-    robots = f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n"
+    robots = f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\nSitemap: {BASE}/sitemap.txt\n"
     daum = (SITE.get("verification") or {}).get("daum")
     if daum:
         robots += f"{daum}\n"
