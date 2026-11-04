@@ -7,7 +7,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 1,price,갤럭시 S26 울트라 가격,갤럭시 S26 울트라,삼성,done,/galaxy-s26-ultra-price-spec/,네이버 연관키워드 11/02 기준 · T1 적용(첫 문단 한 줄 결론+숫자3) · 10/01 인상 후 가격,galaxy-s26-ultra-price-spec,89700,중간,갤럭시S26울트라
 1,price,아이폰17 프로 가격,아이폰17 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-17-pro-price-spec,112100,높음,아이폰17프로
 1,budget,스마트폰 추천·비교 (가격대별),일반,비교,done,/phone-by-budget/,네이버 연관키워드 11/02 기준 · T2 방식 확장(보조 키워드를 FAQ·소제목 문장 그대로) · 17e·에어는 9월 인상 후 국내가 미확인으로 제외,phone-by-budget,92890,중간,스마트폰추천
-1,price,갤럭시 Z폴드8 가격,갤럭시 Z폴드8,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-fold8-price-spec,99970,높음,갤럭시Z폴드8
+1,price,갤럭시 Z폴드8 가격,갤럭시 Z폴드8,삼성,done,https://allthatphone.github.io/galaxy-z-fold8-price-spec/,"네이버 연관키워드 11/02 기준 · 11/04 발행(출고가 3종 공식·3곳 일치, 11월 현재 출고가 변동 보도 없음) · T1·T2 대상 아님(대조군) · 보조 폴드8가격 FAQ 반영",galaxy-z-fold8-price-spec,99970,높음,갤럭시Z폴드8
 1,price,갤럭시 Z플립8 가격,갤럭시 Z플립8,삼성,done,/galaxy-z-flip8-price-spec/,네이버 연관키워드 11/02 기준,galaxy-z-flip8-price-spec,76220,높음,갤럭시Z플립8
 1,price,갤럭시 S25 가격,갤럭시 S25,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s25-price-spec,108200,높음,갤럭시S25
 1,price,아이폰18 프로맥스 가격,아이폰18 프로맥스,애플,todo,,네이버 연관키워드 11/02 기준,iphone-18-pro-max-price-spec,61800,높음,아이폰18프로맥스
