@@ -11,3 +11,15 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-03 20:21,gsc,(사이트),,미색인,,출처 GPT 콘솔 11/03 20:21~20:37 · 사이트맵 가져올 수 없음·발견0 · 7일 노출0/클릭0 · URL검사 6건 미색인(알려지지않음5·크롤링됨-미색인1) · sitemap.txt 제출·색인요청 3건(duo·s26·budget)
 2026-11-03 20:21,naver,(사이트),,미확인,,출처 GPT 콘솔 11/03 20:21~20:37 · 수집 정보 없음 · 수집요청 누적 5건(R-005 3건 접수)
 2026-11-03 20:21,bing,(사이트),,미색인,,출처 GPT 콘솔 11/03 20:21~20:37 · 6건 미색인(발견후미수집2·미발견4) · sitemap.xml 제출 Processing
+2026-11-04 20:09,websearch,site:allthatphone.github.io,,미노출,,웹검색 기준 · 색인 0/9
+2026-11-04 20:09,websearch,아이폰18프로 가격,https://allthatphone.github.io/iphone-18-pro-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+2
+2026-11-04 20:09,websearch,갤럭시Z플립8 가격,https://allthatphone.github.io/galaxy-z-flip8-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+2
+2026-11-04 20:09,websearch,아이폰듀오 가격,https://allthatphone.github.io/iphone-duo-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+2
+2026-11-04 20:09,websearch,갤럭시S26울트라 가격,https://allthatphone.github.io/galaxy-s26-ultra-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+1
+2026-11-04 20:09,websearch,스마트폰추천 가격대별 2026,https://allthatphone.github.io/phone-by-budget/,미노출,,웹검색 기준 · head_keyword+가격 · D+1
+2026-11-04 20:09,websearch,갤럭시S26 가격,https://allthatphone.github.io/galaxy-s26-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+1
+2026-11-04 20:09,websearch,아이폰17 가격,https://allthatphone.github.io/iphone-17-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0
+2026-11-04 20:09,websearch,갤럭시Z폴드8 가격,https://allthatphone.github.io/galaxy-z-fold8-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0
+2026-11-04 20:09,websearch,아이폰17프로 가격,https://allthatphone.github.io/iphone-17-pro-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0
+2026-11-04 20:09,websearch-ai,아이폰17 프로 단종 후 출시가 얼마였고 지금 어디서 사?,https://allthatphone.github.io/iphone-17-pro-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글)
+2026-11-04 20:09,websearch-ai,갤럭시 Z플립8 256GB 출고가 얼마?,https://allthatphone.github.io/galaxy-z-flip8-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번 2)
