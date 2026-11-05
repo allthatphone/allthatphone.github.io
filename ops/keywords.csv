@@ -12,7 +12,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 1,price,갤럭시 S25 가격,갤럭시 S25,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s25-price-spec,108200,높음,갤럭시S25,head
 1,price,아이폰18 프로맥스 가격,아이폰18 프로맥스,애플,todo,,네이버 연관키워드 11/02 기준,iphone-18-pro-max-price-spec,61800,높음,아이폰18프로맥스,head
 1,price,폴더폰 가격,폴더폰,기타,done,https://allthatphone.github.io/folder-phone-price-spec/,"네이버 연관키워드 11/02 기준 · 11/05 발행(첫 롱테일 — H6 시험 시작) · 출고가 4종 각 2곳 확인(스타일폴더2 23만 7,600원 최신) · T2 방식 확장(보조 키워드 카톡되는폴더폰·삼성폴더폰·2G폰·폴더폰공기계·폴더폰개통·폴더폰추천·폴더폰종류·LG폴더폰·효도/학생/키즈 폴더폰을 FAQ·소제목 문장 그대로)",folder-phone-price-spec,47205,높음,폴더폰,longtail
-1,compare,자급제 vs 통신사 구매 비교,일반,비교,todo,,네이버 연관키워드 11/02 기준,unlocked-vs-carrier,38570,중간,자급제폰,longtail
+1,compare,자급제 vs 통신사 구매 비교,일반,비교,done,https://allthatphone.github.io/unlocked-vs-carrier/,"네이버 연관키워드 11/02 기준 · 11/05 발행(롱테일 2번째 — H6) · 선택약정 대상·반환금은 KT·SKT 공식 안내, 단통법 폐지는 언론 3곳 · LG U+ 공식 페이지 미열람으로 표 제외 · T2 방식 확장(보조 아이폰자급제·갤럭시자급제폰·삼성자급제폰·자급제폰개통·SKT자급제폰·자급제폰장점 FAQ·소제목 그대로)",unlocked-vs-carrier,38570,중간,자급제폰,longtail
 1,price,아이폰16 가격,아이폰16,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-price-spec,64525,높음,아이폰16,head
 2,price,아이폰16 프로 가격,아이폰16 프로,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-price-spec,60370,높음,아이폰16PRO,head
 2,price,갤럭시 S24 가격,갤럭시 S24,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-price-spec,59190,높음,갤럭시S24,head
