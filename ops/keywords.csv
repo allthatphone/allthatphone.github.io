@@ -23,7 +23,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 2,compare,휴대폰 싸게 사는 법,일반,비교,todo,,네이버 연관키워드 11/02 기준,buy-phone-cheap,32750,높음,휴대폰싸게사는법,longtail
 1,price,공신폰 가격,공신폰,기타,todo,,네이버 연관키워드 11/02 기준,study-phone-price-spec,23460,높음,공신폰,longtail
 2,price,아이폰15 가격,아이폰15,애플,todo,,네이버 연관키워드 11/02 기준,iphone-15-price-spec,32675,높음,아이폰15,head
-1,compare,번호이동 vs 기기변경 차이,일반,비교,todo,,네이버 연관키워드 11/02 기준,mnp-vs-upgrade,25390,높음,스마트폰기기변경,longtail
+1,compare,번호이동 vs 기기변경 차이,일반,비교,done,https://allthatphone.github.io/mnp-vs-upgrade/,"네이버 연관키워드 11/02 기준 · 11/06 발행(롱테일 3번째 — H6) · 3개월 제한·사전동의 절차는 SKT T world 공식+SBS Biz, 가입유형 차등은 뉴시스·SBS Biz, 전환지원금은 CEO스코어·비즈워치 · 실제 지원금 금액 미기재(계산식만) · T2 방식 확장(보조 KT기기변경·SKT기기변경·SKT번호이동·KT번호이동·유플러스번호이동·핸드폰통신사변경혜택·통신사변경지원금·아이폰기기변경 FAQ·소제목 그대로)",mnp-vs-upgrade,25390,높음,스마트폰기기변경,longtail
 2,price,갤럭시 S26 플러스 가격,갤럭시 S26 플러스,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s26-plus-price-spec,21680,높음,갤럭시S26플러스,head
 2,price,갤럭시 Z플립7 가격,갤럭시 Z플립7,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-flip7-price-spec,30750,높음,갤럭시Z플립7,head
 2,price,갤럭시 Z폴드8 울트라 가격,갤럭시 Z폴드8 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-z-fold8-ultra-price-spec,21420,높음,폴드8울트라,head
