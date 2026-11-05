@@ -1,5 +1,6 @@
 https://allthatphone.github.io/
 https://allthatphone.github.io/about/
+https://allthatphone.github.io/mnp-vs-upgrade/
 https://allthatphone.github.io/folder-phone-price-spec/
 https://allthatphone.github.io/galaxy-s25-price-spec/
 https://allthatphone.github.io/unlocked-vs-carrier/
