@@ -3,4 +3,5 @@ Allow: /
 
 Sitemap: https://allthatphone.github.io/sitemap.xml
 Sitemap: https://allthatphone.github.io/sitemap.txt
+Sitemap: https://allthatphone.github.io/sitemap_index.xml
 #DaumWebMasterTool:9b01bb3f6f703439ac5a86c3691d84ce6ca05b8ac96d6d013d1193a5a8993867:y9pY72z5HH+w9gPPOcRKdg==
