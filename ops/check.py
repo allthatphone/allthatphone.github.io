@@ -27,7 +27,7 @@ for p in pages:
             continue
         if href not in known:
             errors.append(f"{p}: 깨진 내부 링크 {href}")
-for x in ("sitemap.xml", "rss.xml"):
+for x in ("sitemap.xml", "rss.xml", "sitemap_index.xml"):
     try:
         ET.parse(DIST / x)
     except Exception as e:

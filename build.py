@@ -193,6 +193,10 @@ def build():
         sm += f"<url><loc>{esc(u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
     (DIST / "sitemap.xml").write_text(sm + "</urlset>\n", encoding="utf-8")
     (DIST / "sitemap.txt").write_text("\n".join(u for u, _ in urls) + "\n", encoding="utf-8")
+    today = max([p["updated"] for p in posts] or [""])
+    (DIST / "sitemap_index.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f'<sitemap><loc>{BASE}/sitemap.xml</loc><lastmod>{today}</lastmod></sitemap>\n</sitemapindex>\n', encoding="utf-8")
 
     # RSS 2.0 (네이버는 Atom을 못 읽은 사례가 있어 RSS 2.0으로 제공)
     def rfc(d):
@@ -204,7 +208,7 @@ def build():
            f'<link>{BASE}/</link><description>{esc(SITE["description"])}</description><language>ko</language>\n{items}</channel></rss>\n')
     (DIST / "rss.xml").write_text(rss, encoding="utf-8")
 
-    robots = f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\nSitemap: {BASE}/sitemap.txt\n"
+    robots = f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\nSitemap: {BASE}/sitemap.txt\nSitemap: {BASE}/sitemap_index.xml\n"
     daum = (SITE.get("verification") or {}).get("daum")
     if daum:
         robots += f"{daum}\n"
