@@ -39,7 +39,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 2,price,갤럭시 와이드 가격,갤럭시 와이드,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-wide-price-spec,5680,높음,갤럭시와이드,longtail
 2,price,갤럭시 버디 가격,갤럭시 버디,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-buddy-price-spec,4940,높음,갤럭시버디3,longtail
 3,option,갤럭시 S24 자급제·구매방법,갤럭시 S24,삼성,merged,,네이버 연관키워드 11/02 기준 · 갤럭시 S24 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),galaxy-s24-unlocked,6145,높음,갤럭시S24자급제,head
-1,compare,공시지원금 vs 선택약정,일반,비교,todo,,네이버 연관키워드 11/02 기준,subsidy-vs-discount,4010,높음,통신사이동지원금,longtail
+1,compare,공시지원금 vs 선택약정,일반,비교,done,https://allthatphone.github.io/subsidy-vs-discount/,"네이버 연관키워드 11/02 기준 · 11/08 발행(기준선 월요금×6, 위약금 vs 할인반환금 해지시점표, 약정 중 전환 6가지, 차액정산 SKT·KT 공식) · 보조 KT/SKT공시지원금·통신사이동지원금·공시지원금조회·아이폰/갤럭시공시지원금 FAQ 반영",subsidy-vs-discount,4010,높음,통신사이동지원금,longtail
 3,option,아이폰16 프로 색상·용량,아이폰16 프로,애플,merged,,네이버 연관키워드 11/02 기준 · 아이폰16 프로 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),iphone-16-pro-options,3880,높음,아이폰16프로색상,head
 3,option,아이폰16 자급제·구매방법,아이폰16,애플,merged,,네이버 연관키워드 11/02 기준 · 아이폰16 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),iphone-16-unlocked,3210,높음,아이폰16자급제,head
 3,spec,아이폰16 스펙,아이폰16,애플,merged,,네이버 연관키워드 11/02 기준 · 아이폰16 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),iphone-16-spec,2450,중간,아이폰16크기,head
