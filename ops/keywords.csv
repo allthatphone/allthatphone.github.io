@@ -30,7 +30,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 2,price,갤럭시 A시리즈 가격,갤럭시 A시리즈,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a-series-price-spec,17240,높음,갤럭시A시리즈,longtail
 1,price,키즈폰 가격,키즈폰,기타,done,https://allthatphone.github.io/kids-phone-price-spec/,"네이버 연관키워드 11/02 기준 · 11/07 발행(롱테일 5번째 — H6) · 3사 최신 키즈폰 출고가 각 2곳 이상(SKT 34만 9,800원 SKT 뉴스룸+머니투데이·연합, KT 34만 9,800원 지디넷+스타뉴스, LG U+ 36만 9,500원 LG 보도자료+전자신문) · 셋 다 갤럭시 A17 LTE 기반 → 일반 모델(31만 9,000원) 대비 차액·보호 기능 비교로 차별화 · T2 방식 확장(보조 KT키즈폰·LG키즈폰·U+키즈폰·갤럭시/삼성키즈폰·키즈폰자급제·키즈폰추천·키즈폰종류·키즈폰비교·초등학생키즈폰·키즈폰개통·SK키즈폰기기변경 FAQ·소제목 그대로)",kids-phone-price-spec,16990,높음,키즈폰,longtail
 2,price,갤럭시 S24 울트라 가격,갤럭시 S24 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-ultra-price-spec,23350,높음,갤럭시S24울트라,head
-1,price,효도폰 가격,효도폰,기타,todo,,네이버 연관키워드 11/02 기준,senior-phone-price-spec,11690,높음,효도폰,longtail
+1,price,효도폰 가격,효도폰,기타,done,https://allthatphone.github.io/senior-phone-price-spec/,"네이버 연관키워드 11/02 기준 · 11/07 발행(스마트폰형 중심, 폴더폰 글과 차별화)",senior-phone-price-spec,11690,높음,효도폰,longtail
 2,compare,공기계 구매 가이드,일반,비교,todo,,네이버 연관키워드 11/02 기준,unlocked-used-guide,12630,높음,휴대폰공기계,longtail
 2,price,갤럭시 A57 가격,갤럭시 A57,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a57-price-spec,10710,높음,갤럭시A57,longtail
 2,price,아이폰16 프로맥스 가격,아이폰16 프로맥스,애플,todo,,네이버 연관키워드 11/02 기준,iphone-16-pro-max-price-spec,10830,높음,아이폰16프로맥스,head
