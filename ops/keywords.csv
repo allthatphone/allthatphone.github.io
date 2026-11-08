@@ -52,7 +52,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 3,spec,아이폰16 프로 스펙,아이폰16 프로,애플,merged,,네이버 연관키워드 11/02 기준 · 아이폰16 프로 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),iphone-16-pro-spec,1660,높음,아이폰16프로크기,head
 3,price,아이폰16 프로 출시일,아이폰16 프로,애플,merged,,네이버 연관키워드 11/02 기준 · 아이폰16 프로 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),iphone-16-pro-release,1500,높음,아이폰16프로출시일,head
 3,price,학생폰 가격,학생폰,기타,todo,,네이버 연관키워드 11/02 기준,student-phone-price-spec,710,높음,학생폰,longtail
-1,compare,휴대폰 공동구매란,일반,비교,todo,,네이버 연관키워드 11/02 기준,phone-group-buy,710,높음,핸드폰공동구매,longtail
+1,compare,휴대폰 공동구매란,일반,비교,done,https://allthatphone.github.io/phone-group-buy/,"네이버 연관키워드 11/02 기준 · 11/08 발행(롱테일 8번째 — H6, 카페 연결 핵심 글) · 할부원금 A−B−C 표·안전 체크 7가지(사전승낙서·계약서 기재·사후 페이백·이동개통·대리작성·유지기간·청약철회 7일)·단통법 전후 8행·2년 총비용 식 · 공동구매 실제 금액 미기재(deals.yml 없음) · 보조 휴대폰공동구매·공구폰·핸드폰카페·휴대폰공구·공동구매카페·핸드폰공구 FAQ·소제목 반영",phone-group-buy,710,높음,핸드폰공동구매,longtail
 1,guide,미성년자 핸드폰 개통 방법,일반,비교,todo,,11/04 롱테일 신규(사용자 지시: 경쟁 낮은 키워드 먼저) · 통신사 공식 안내(법정대리인 동의·서류)만 근거,minor-phone-activation,260,중간,미성년자핸드폰개통,longtail
 1,guide,아이폰 공기계 개통 방법,일반,애플,todo,,"11/04 롱테일 신규(사용자 지시: 경쟁 낮은 키워드 먼저) · 자급제·공기계 유심/eSIM 개통 절차, 통신사·애플 공식 안내 근거",unlocked-iphone-activation,210,중간,아이폰공기계개통,longtail
 2,budget,세컨폰 추천,일반,비교,todo,,"11/04 롱테일 신규(사용자 지시: 경쟁 낮은 키워드 먼저) · 업무용·공부용·키즈 세컨폰 구분, 출고가 확인된 모델만",second-phone,160,중간,세컨폰추천,longtail
