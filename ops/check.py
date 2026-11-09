@@ -25,6 +25,11 @@ for p in pages:
     for href in re.findall(r'href="(' + re.escape(BASE) + r'[^"]*)"', h):
         if href.endswith((".xml", ".txt")):
             continue
+        rel = href[len(BASE):].lstrip("/")
+        if rel and "/" not in rel and "." in rel:  # 정적 파일(favicon 등): dist에 실제 있어야 함
+            if not (DIST / rel).is_file():
+                errors.append(f"{p}: 정적 파일 없음 {href}")
+            continue
         if href not in known:
             errors.append(f"{p}: 깨진 내부 링크 {href}")
 for x in ("sitemap.xml", "rss.xml", "sitemap_index.xml"):

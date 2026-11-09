@@ -82,6 +82,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}">
 <meta property="og:site_name" content="{esc(SITE['name'])}"><meta property="og:locale" content="ko_KR">
+<link rel="icon" href="{BASE}/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="{BASE}/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="{esc(SITE['name'])}" href="{BASE}/rss.xml">
 {vt}{extra_head}<style>{CSS}</style>
 {ld}
@@ -132,7 +133,10 @@ def render_post(p, posts):
         parts.append('<h2 id="faq">자주 묻는 질문</h2>')
         for q in faq:
             parts.append(f'<details open><summary>{esc(q["q"])}</summary><p>{esc(q["a"])}</p></details>')
-    related = [x for x in posts if x["slug"] != p["slug"]][:4]
+    # 관련 글: 같은 브랜드(또는 같은 주제 묶음) 최대 3편 + 최신 글으로 채워 최대 6편 (2026-11-09 주간 분석: 새 글 발견 경로 강화)
+    others = [x for x in posts if x["slug"] != p["slug"]]
+    same = [x for x in others if x["brand"] == p["brand"]][:3]
+    related = same + [x for x in others if x not in same][:6 - len(same)]
     if related:
         parts.append("<h2>다른 모델 가격·스펙</h2><ul>" + "".join(
             f'<li><a href="{x["url"]}">{esc(x["title"])}</a></li>' for x in related) + "</ul>")
@@ -164,6 +168,12 @@ def build():
         shutil.rmtree(DIST)
     DIST.mkdir()
     (DIST / ".nojekyll").write_text("")
+    # 정적 파일(favicon 등) — 네이버 수집제한 /favicon.ico 400 해소(2026-11-09)
+    static = ROOT / "static"
+    if static.exists():
+        for f in static.iterdir():
+            if f.is_file():
+                shutil.copy(f, DIST / f.name)
     for p in posts:
         d = DIST / p["slug"]
         d.mkdir(parents=True)
