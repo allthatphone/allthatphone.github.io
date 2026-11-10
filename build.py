@@ -70,7 +70,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
     if v.get("google"):
         vt += f'<meta name="google-site-verification" content="{esc(v["google"])}">\n'
     org = {"@context": "https://schema.org", "@type": "Organization", "name": SITE["name"], "url": BASE + "/",
-           "description": SITE["description"], "sameAs": [SITE["cafe_url"]]}
+           "description": SITE["description"], "sameAs": [SITE["cafe_url"], "https://htglove.github.io/"]}
     blocks = [org] + (jsonld or [])
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(b, ensure_ascii=False)}</script>' for b in blocks)
     return f"""<!doctype html>
@@ -90,7 +90,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 <header class="top"><div class="wrap"><a class="logo" href="{BASE}/">{esc(SITE['name'][:-2])}<span>{esc(SITE['name'][-2:])}</span></a>
 <nav><a href="{BASE}/">모델 목록</a><a href="{BASE}/about/">소개</a></nav></div></header>
 <main class="wrap">{body}</main>
-<footer><div class="wrap">{esc(SITE['name'])} · {esc(SITE['tagline'])}<br>가격은 기준일 이후 바뀔 수 있으니 구매 전 최신 가격을 확인하세요. {esc(SITE['cafe_note'])}</div></footer>
+<footer><div class="wrap">{esc(SITE['name'])} · {esc(SITE['tagline'])}<br>가격은 기준일 이후 바뀔 수 있으니 구매 전 최신 가격을 확인하세요. {esc(SITE['cafe_note'])}<br>{esc(SITE['brand_sentence'])} <a href="{BASE}/about/">올댓폰 소개</a> · <a href="https://htglove.github.io/regions/">지역별 성지 정보</a></div></footer>
 </body></html>"""
 
 
@@ -194,7 +194,7 @@ def build():
     about = ROOT / "content" / "about.md"
     ab = markdown.markdown(about.read_text(encoding="utf-8"), extensions=["tables"])
     (DIST / "about").mkdir()
-    (DIST / "about" / "index.html").write_text(page(f'소개 | {SITE["name"]}', SITE["description"], BASE + "/about/", ab), encoding="utf-8")
+    (DIST / "about" / "index.html").write_text(page(f'올댓폰 카페 소개 — 인증 시세표·강제 없는 택배 공동구매 | {SITE["name"]}', SITE["brand_sentence"], BASE + "/about/", ab), encoding="utf-8")
 
     # 사이트맵
     urls = [(BASE + "/", posts[0]["updated"] if posts else ""), (BASE + "/about/", "")] + [(p["url"], p["updated"]) for p in posts]
@@ -226,7 +226,7 @@ def build():
     if SITE.get("indexnow_key"):
         (DIST / f"{SITE['indexnow_key']}.txt").write_text(SITE["indexnow_key"], encoding="utf-8")
 
-    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "",
+    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", f"- 소개: {BASE}/about/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
             "- 스펙은 제조사 공식 발표 기준이며, 확인되지 않은 루머는 넣지 않습니다.",
             f"- 실제 구매가(통신사 공동구매)는 {SITE['cafe_name']}({SITE['cafe_url']})에서 모델별로 공개합니다. 요금제·부가서비스 강제가 없는 온라인 택배 공동구매이며, 올댓폰이 직접 인증한 현금 시세표도 함께 운영합니다.",
