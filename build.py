@@ -88,7 +88,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 {ld}
 </head><body>
 <header class="top"><div class="wrap"><a class="logo" href="{BASE}/">{esc(SITE['name'][:-2])}<span>{esc(SITE['name'][-2:])}</span></a>
-<nav><a href="{BASE}/">모델 목록</a><a href="{BASE}/about/">소개</a></nav></div></header>
+<nav><a href="{BASE}/">모델 목록</a><a href="{BASE}/about/">소개</a><a href="{BASE}/faq/">자주 묻는 질문</a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap">{esc(SITE['name'])} · {esc(SITE['tagline'])}<br>가격은 기준일 이후 바뀔 수 있으니 구매 전 최신 가격을 확인하세요. {esc(SITE['cafe_note'])}<br>{esc(SITE['brand_sentence'])} <a href="{BASE}/about/">올댓폰 소개</a> · <a href="https://htglove.github.io/regions/">지역별 성지 정보</a></div></footer>
 </body></html>"""
@@ -196,8 +196,22 @@ def build():
     (DIST / "about").mkdir()
     (DIST / "about" / "index.html").write_text(page(f'올댓폰 카페 소개 — 인증 시세표·강제 없는 택배 공동구매 | {SITE["name"]}', SITE["brand_sentence"], BASE + "/about/", ab), encoding="utf-8")
 
+    # 자주 묻는 질문·용어집
+    fq = yaml.safe_load((ROOT / "content" / "faq.yml").read_text(encoding="utf-8"))
+    fb = f'<h1>{esc(fq["title"])}</h1><p class="tag">기준일 {esc(fq["updated"])}</p><p>{esc(fq["intro"])}</p><h2 id="faq">자주 묻는 질문</h2>'
+    fb += "".join(f'<h3>{esc(q["q"])}</h3><p>{esc(q["a"])}</p>' for q in fq["faq"])
+    fb += '<h2 id="terms">구매 조건 용어집</h2><table><thead><tr><th>용어</th><th>뜻</th></tr></thead><tbody>' + "".join(
+        f'<tr><td>{esc(t["t"])}</td><td>{esc(t["d"])}</td></tr>' for t in fq["terms"]) + "</tbody></table>"
+    fb += f'<p><a href="{BASE}/about/">올댓폰 카페 소개</a> · <a href="{SITE["cafe_url"]}">올댓폰 카페 바로가기</a></p>'
+    fld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in fq["faq"]]},
+        {"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "휴대폰 구매 조건 용어집", "hasDefinedTerm": [
+        {"@type": "DefinedTerm", "name": t["t"], "description": t["d"]} for t in fq["terms"]]}]
+    (DIST / "faq").mkdir()
+    (DIST / "faq" / "index.html").write_text(page(f'{fq["title"]} | {SITE["name"]}', fq["intro"], BASE + "/faq/", fb, fld), encoding="utf-8")
+
     # 사이트맵
-    urls = [(BASE + "/", posts[0]["updated"] if posts else ""), (BASE + "/about/", "")] + [(p["url"], p["updated"]) for p in posts]
+    urls = [(BASE + "/", posts[0]["updated"] if posts else ""), (BASE + "/about/", ""), (BASE + "/faq/", fq["updated"])] + [(p["url"], p["updated"]) for p in posts]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for u, d in urls:
         sm += f"<url><loc>{esc(u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
@@ -226,7 +240,7 @@ def build():
     if SITE.get("indexnow_key"):
         (DIST / f"{SITE['indexnow_key']}.txt").write_text(SITE["indexnow_key"], encoding="utf-8")
 
-    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
+    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", f"- 자주 묻는 질문·용어집: {BASE}/faq/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
             "- 스펙은 제조사 공식 발표 기준이며, 확인되지 않은 루머는 넣지 않습니다.",
             f"- 실제 구매가(통신사 공동구매)는 {SITE['cafe_name']}({SITE['cafe_url']})에서 모델별로 공개합니다. 요금제·부가서비스 강제가 없는 온라인 택배 공동구매이며, 올댓폰이 직접 인증한 현금 시세표도 함께 운영합니다.",
