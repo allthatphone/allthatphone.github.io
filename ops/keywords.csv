@@ -31,7 +31,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 1,price,키즈폰 가격,키즈폰,기타,done,https://allthatphone.github.io/kids-phone-price-spec/,"네이버 연관키워드 11/02 기준 · 11/07 발행(롱테일 5번째 — H6) · 3사 최신 키즈폰 출고가 각 2곳 이상(SKT 34만 9,800원 SKT 뉴스룸+머니투데이·연합, KT 34만 9,800원 지디넷+스타뉴스, LG U+ 36만 9,500원 LG 보도자료+전자신문) · 셋 다 갤럭시 A17 LTE 기반 → 일반 모델(31만 9,000원) 대비 차액·보호 기능 비교로 차별화 · T2 방식 확장(보조 KT키즈폰·LG키즈폰·U+키즈폰·갤럭시/삼성키즈폰·키즈폰자급제·키즈폰추천·키즈폰종류·키즈폰비교·초등학생키즈폰·키즈폰개통·SK키즈폰기기변경 FAQ·소제목 그대로)",kids-phone-price-spec,16990,높음,키즈폰,longtail
 2,price,갤럭시 S24 울트라 가격,갤럭시 S24 울트라,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-s24-ultra-price-spec,23350,높음,갤럭시S24울트라,head
 1,price,효도폰 가격,효도폰,기타,done,https://allthatphone.github.io/senior-phone-price-spec/,"네이버 연관키워드 11/02 기준 · 11/07 발행(스마트폰형 중심, 폴더폰 글과 차별화)",senior-phone-price-spec,11690,높음,효도폰,longtail
-2,compare,공기계 구매 가이드,일반,비교,todo,,네이버 연관키워드 11/02 기준,unlocked-used-guide,12630,높음,휴대폰공기계,longtail
+2,compare,공기계 구매 가이드,일반,비교,done,https://allthatphone.github.io/unlocked-used-guide/,"네이버 연관키워드 11/02 기준 · 11/11 발행(공기계 5종 비교표·용어표·삼성 인증중고폰 가격 6행(뉴스룸·전자신문)·삼성 보증 기준표(공식)·구매 전 확인 8가지·안심거래 인증제(정책브리핑·KAIT 50곳)·조건별 결론) · T3 홀수(5번째, 색인 요청 그룹) · 보조 갤럭시공기계·휴대폰공기계구매·스마트폰공기계·핸드폰공기계판매·공기계폰·완납폰·노구라폰·애플공기계 FAQ·소제목 반영",unlocked-used-guide,12630,높음,휴대폰공기계,longtail
 2,price,갤럭시 A57 가격,갤럭시 A57,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-a57-price-spec,10710,높음,갤럭시A57,longtail
 3,price,아이폰16 프로맥스 가격,아이폰16 프로맥스,애플,merged,,네이버 연관키워드 11/02 기준 · 11/09 주간: 아이폰16 프로 글(프로맥스 가격·크기·배터리 FAQ 포함)에 합침,iphone-16-pro-max-price-spec,10830,높음,아이폰16프로맥스,head
 2,price,갤럭시 퀀텀 가격,갤럭시 퀀텀,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-quantum-price-spec,7550,높음,갤럭시퀀텀5,longtail
