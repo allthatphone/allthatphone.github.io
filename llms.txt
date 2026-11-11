@@ -8,6 +8,7 @@
 - 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)
 - 카페: https://cafe.naver.com/cutebell
 - 소개: https://allthatphone.github.io/about/
+- 자주 묻는 질문·용어집: https://allthatphone.github.io/faq/
 - 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/
 
 ## 이 사이트의 기준
