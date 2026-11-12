@@ -11,3 +11,4 @@ https://allthatphone.github.io/iphone-air-price-spec/
 https://allthatphone.github.io/galaxy-a-series-price-spec/
 https://allthatphone.github.io/galaxy-s24-fe-price-spec/
 https://allthatphone.github.io/iphone-15-price-spec/
+https://allthatphone.github.io/phone-activation-guide/
