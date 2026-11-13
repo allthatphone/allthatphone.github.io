@@ -2,8 +2,10 @@ https://allthatphone.github.io/
 https://allthatphone.github.io/about/
 https://allthatphone.github.io/faq/
 https://allthatphone.github.io/group-buy-prices/
+https://allthatphone.github.io/galaxy-z-flip8-price-spec/
 https://allthatphone.github.io/phone-seongji-cafe-guide/
 https://allthatphone.github.io/galaxy-quantum-price-spec/
+https://allthatphone.github.io/galaxy-z-flip7-price-spec/
 https://allthatphone.github.io/phone-activation-guide/
 https://allthatphone.github.io/galaxy-a-series-price-spec/
 https://allthatphone.github.io/galaxy-s24-fe-price-spec/
@@ -35,6 +37,5 @@ https://allthatphone.github.io/iphone-17-pro-price-spec/
 https://allthatphone.github.io/galaxy-s26-price-spec/
 https://allthatphone.github.io/galaxy-s26-ultra-price-spec/
 https://allthatphone.github.io/phone-by-budget/
-https://allthatphone.github.io/galaxy-z-flip8-price-spec/
 https://allthatphone.github.io/iphone-18-pro-price-spec/
 https://allthatphone.github.io/iphone-duo-price-spec/
