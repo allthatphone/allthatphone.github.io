@@ -16,3 +16,4 @@ https://allthatphone.github.io/galaxy-quantum-price-spec/
 https://allthatphone.github.io/galaxy-z-flip7-price-spec/
 https://allthatphone.github.io/group-buy-prices/
 https://allthatphone.github.io/about/
+https://allthatphone.github.io/galaxy-wide-price-spec/

@@ -36,7 +36,7 @@ priority,type,keyword,model,brand,status,url,note,slug,naver_volume,competition,
 3,price,아이폰16 프로맥스 가격,아이폰16 프로맥스,애플,merged,,네이버 연관키워드 11/02 기준 · 11/09 주간: 아이폰16 프로 글(프로맥스 가격·크기·배터리 FAQ 포함)에 합침,iphone-16-pro-max-price-spec,10830,높음,아이폰16프로맥스,head
 2,price,갤럭시 퀀텀 가격,갤럭시 퀀텀,삼성,done,https://allthatphone.github.io/galaxy-quantum-price-spec/,"네이버 연관키워드 11/02 기준 · 11/13 발행(퀀텀1~7 출고가 SKT 뉴스룸+언론 2곳 일치, 퀀텀7 화면·칩·배터리는 해외 매체 2곳 일치값만 표시) · head_keyword 갤럭시퀀텀5 제목 맨 앞 · 이전 실행의 'A시리즈 글과 겹침' 판단 재검토: A시리즈 글은 퀀텀7 1행만 다루고 세대별 출고가·QRNG 질문엔 답하지 않아 별도 글",galaxy-quantum-price-spec,7550,높음,갤럭시퀀텀5,longtail
 2,price,갤럭시 S24 FE 가격,갤럭시 S24 FE,삼성,done,https://allthatphone.github.io/galaxy-s24-fe-price-spec/,"네이버 연관키워드 11/02 기준 · 11/12 발행(출고가 94만 6,000원 뉴스룸·이투데이·전자신문·천지일보·스마트투데이 일치, 국내 256GB 삼성닷컴 상품 페이지, FE 3세대·S24 비교·할부이자·구매 전 5가지) · T3 홀수(9번)",galaxy-s24-fe-price-spec,8250,높음,갤럭시S24FE,longtail
-2,price,갤럭시 와이드 가격,갤럭시 와이드,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-wide-price-spec,5680,높음,갤럭시와이드,longtail
+2,price,갤럭시 와이드 가격,갤럭시 와이드,삼성,done,https://allthatphone.github.io/galaxy-wide-price-spec/,네이버 연관키워드 11/02 기준 · 11/14 발행: 와이드3~9 세대별 출고가 이력(효도폰·A시리즈·퀀텀 글은 와이드9 한 행만이라 별도 글로 판단),galaxy-wide-price-spec,5680,높음,갤럭시와이드,longtail
 2,price,갤럭시 버디 가격,갤럭시 버디,삼성,todo,,네이버 연관키워드 11/02 기준,galaxy-buddy-price-spec,4940,높음,갤럭시버디3,longtail
 3,option,갤럭시 S24 자급제·구매방법,갤럭시 S24,삼성,merged,,네이버 연관키워드 11/02 기준 · 갤럭시 S24 가격 글 FAQ·소제목으로 흡수(구형 세부 글 남발 금지),galaxy-s24-unlocked,6145,높음,갤럭시S24자급제,head
 1,compare,공시지원금 vs 선택약정,일반,비교,done,https://allthatphone.github.io/subsidy-vs-discount/,"네이버 연관키워드 11/02 기준 · 11/08 발행(기준선 월요금×6, 위약금 vs 할인반환금 해지시점표, 약정 중 전환 6가지, 차액정산 SKT·KT 공식) · 보조 KT/SKT공시지원금·통신사이동지원금·공시지원금조회·아이폰/갤럭시공시지원금 FAQ 반영",subsidy-vs-discount,4010,높음,통신사이동지원금,longtail
