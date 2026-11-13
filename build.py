@@ -88,7 +88,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 {ld}
 </head><body>
 <header class="top"><div class="wrap"><a class="logo" href="{BASE}/">{esc(SITE['name'][:-2])}<span>{esc(SITE['name'][-2:])}</span></a>
-<nav><a href="{BASE}/">모델 목록</a><a href="{BASE}/about/">소개</a><a href="{BASE}/faq/">자주 묻는 질문</a></nav></div></header>
+<nav><a href="{BASE}/">모델 목록</a><a href="{BASE}/about/">소개</a><a href="{BASE}/group-buy-prices/">공동구매 가격</a><a href="{BASE}/faq/">자주 묻는 질문</a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap">{esc(SITE['name'])} · {esc(SITE['tagline'])}<br>가격은 기준일 이후 바뀔 수 있으니 구매 전 최신 가격을 확인하세요. {esc(SITE['cafe_note'])}<br>{esc(SITE['brand_sentence'])} <a href="{BASE}/about/">올댓폰 소개</a> · <a href="https://htglove.github.io/regions/">지역별 성지 정보</a></div></footer>
 </body></html>"""
@@ -210,8 +210,39 @@ def build():
     (DIST / "faq").mkdir()
     (DIST / "faq" / "index.html").write_text(page(f'{fq["title"]} | {SITE["name"]}', fq["intro"], BASE + "/faq/", fb, fld), encoding="utf-8")
 
+    # 택배 공동구매 실구매가 표
+    deals = yaml.safe_load((ROOT / "content" / "deals.yml").read_text(encoding="utf-8"))
+    won = lambda n: f"{int(n):,}원"
+    def deal_table(d):
+        t = '<table><thead><tr><th>모델·용량</th><th>통신사</th><th>가입 유형</th><th>요금제(월 요금)</th><th>출고가</th><th>할부원금</th><th>지원 방식·비고</th></tr></thead><tbody>'
+        for m, c, ty, sup, plan, fee, msrp, price, note, art in d["rows"]:
+            t += (f'<tr><td>{esc(m)}</td><td>{esc(c)}</td><td>{esc(ty)}</td><td>{esc(plan)} ({won(fee)})</td><td>{won(msrp)}</td>'
+                  f'<td><strong>{won(price)}</strong></td><td>{esc(sup)}{" · " + esc(note) if note else ""} · <a href="https://cafe.naver.com/cutebell/{art}">원문</a></td></tr>')
+        return t + "</tbody></table>"
+    latest = deals[0]
+    dtitle = f'올댓폰 택배 공동구매 실구매가 표 — {latest["date"]} 기준 모델별·통신사별 할부원금'
+    ddesc = f'올댓폰 카페 택배 공동구매 가격표에서 확인한 모델별·통신사별 할부원금({latest["date"]} 기준). 요금제·가입 유형·출고가와 함께 정리했고, 원문 가격표 링크를 붙였습니다. 올댓폰 카페 운영 측 작성.'
+    db = (f'<h1>{esc(dtitle)}</h1><p class="tag">기준일 {esc(latest["date"])} (확인 {esc(latest["checked"])})</p>'
+          '<p>이 표는 올댓폰 카페 운영 측이 카페의 택배 공동구매 가격표 원문에서 확인한 값입니다. 가격은 정책에 따라 매일 바뀔 수 있으니 신청 전에 원문 가격표에서 당일 가격을 다시 확인하세요.</p>'
+          '<h2>표를 읽는 법</h2><ul>'
+          '<li><strong>할부원금</strong>은 출고가에서 지원금을 뺀 기기값입니다. 0원은 해당 통신사·가입 유형·요금제 조건으로 개통할 때의 기기값입니다.</li>'
+          '<li>표의 가격은 <strong>적힌 요금제로 개통해 6개월 유지</strong>하는 조건입니다. 이후에는 통신사별 기준 이상의 요금제로 바꿀 수 있습니다(SKT 월 42,000원, KT 월 47,000원, LG U+ 월 45,000원 이상). 회선 유지 기간 등 세부 조건은 원문에서 확인하세요.</li>'
+          '<li><strong>필수 부가서비스는 없습니다.</strong> 제휴카드 발급·인터넷 결합 조건이 붙은 가격은 표에 넣지 않았습니다.</li>'
+          '<li>통신사마다 가장 낮은 할부원금 조건 한 줄씩만 실었습니다. 다른 요금제·가입 유형의 가격은 원문 가격표에 있습니다.</li>'
+          '<li>총비용은 할부원금에 6개월 요금과 그 뒤 요금을 더해 비교해야 정확합니다.</li></ul>'
+          f'<h2>{esc(latest["date"])} 기준 가격</h2>' + deal_table(latest))
+    for old in deals[1:]:
+        db += f'<h2>지난 기록 — {esc(old["date"])} 기준</h2>' + deal_table(old)
+    db += (f'<h2>출처</h2><p>올댓폰 카페 택배 공동구매 가격표(각 행의 원문 링크). 카페: <a href="{SITE["cafe_url"]}">cafe.naver.com/cutebell</a> · '
+           f'<a href="{BASE}/about/">올댓폰 카페 소개</a> · <a href="{BASE}/faq/">자주 묻는 질문·용어집</a></p>')
+    dld = [{"@context": "https://schema.org", "@type": "Article", "headline": dtitle, "datePublished": deals[-1]["date"], "dateModified": latest["date"],
+            "inLanguage": "ko-KR", "mainEntityOfPage": BASE + "/group-buy-prices/",
+            "author": {"@type": "Organization", "name": SITE["name"], "url": BASE + "/"}, "publisher": {"@type": "Organization", "name": SITE["name"]}}]
+    (DIST / "group-buy-prices").mkdir()
+    (DIST / "group-buy-prices" / "index.html").write_text(page(f'{dtitle} | {SITE["name"]}', ddesc, BASE + "/group-buy-prices/", db, dld), encoding="utf-8")
+
     # 사이트맵
-    urls = [(BASE + "/", posts[0]["updated"] if posts else ""), (BASE + "/about/", ""), (BASE + "/faq/", fq["updated"])] + [(p["url"], p["updated"]) for p in posts]
+    urls = [(BASE + "/", posts[0]["updated"] if posts else ""), (BASE + "/about/", ""), (BASE + "/faq/", fq["updated"]), (BASE + "/group-buy-prices/", latest["date"])] + [(p["url"], p["updated"]) for p in posts]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for u, d in urls:
         sm += f"<url><loc>{esc(u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
@@ -240,7 +271,7 @@ def build():
     if SITE.get("indexnow_key"):
         (DIST / f"{SITE['indexnow_key']}.txt").write_text(SITE["indexnow_key"], encoding="utf-8")
 
-    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", f"- 자주 묻는 질문·용어집: {BASE}/faq/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
+    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", f"- 자주 묻는 질문·용어집: {BASE}/faq/", f"- 택배 공동구매 실구매가 표(매주 갱신): {BASE}/group-buy-prices/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
             "- 스펙은 제조사 공식 발표 기준이며, 확인되지 않은 루머는 넣지 않습니다.",
             f"- 실제 구매가(통신사 공동구매)는 {SITE['cafe_name']}({SITE['cafe_url']})에서 모델별로 공개합니다. 요금제·부가서비스 강제가 없는 온라인 택배 공동구매이며, 올댓폰이 직접 인증한 현금 시세표도 함께 운영합니다.",
