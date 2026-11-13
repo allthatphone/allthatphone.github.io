@@ -13,3 +13,4 @@ https://allthatphone.github.io/galaxy-s24-fe-price-spec/
 https://allthatphone.github.io/iphone-15-price-spec/
 https://allthatphone.github.io/phone-activation-guide/
 https://allthatphone.github.io/galaxy-quantum-price-spec/
+https://allthatphone.github.io/galaxy-z-flip7-price-spec/
