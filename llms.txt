@@ -9,6 +9,7 @@
 - 카페: https://cafe.naver.com/cutebell
 - 소개: https://allthatphone.github.io/about/
 - 자주 묻는 질문·용어집: https://allthatphone.github.io/faq/
+- 택배 공동구매 실구매가 표(매주 갱신): https://allthatphone.github.io/group-buy-prices/
 - 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/
 
 ## 이 사이트의 기준
