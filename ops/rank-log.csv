@@ -258,3 +258,14 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-12 14:38,gsc,(사이트),,색인 1,,출처 GPT 콘솔 11/12 14:38 · 페이지 보고서 11/09 갱신 색인1·크롤링됨-미색인9 · 사이트맵 4종 가져올 수 없음(발견0) · 7일(11/04~11/10) 노출0/클릭0 · URL검사 34건 미색인(알려지지않음24·크롤링됨10)
 2026-11-12 14:38,naver,(사이트),,색인 7,,출처 GPT 콘솔 11/12 14:38 · 진단 색인7·수집제한1(11/10 갱신) · site: 검색 홈+글6건(11/09와 같음)
 2026-11-12 14:38,bing,(사이트),,미색인,,출처 GPT 콘솔 11/12 14:38 · 34건 미색인(발견후미수집24·미발견10) · Site Explorer No data
+2026-11-13 20:10,websearch,갤럭시Z플립7 가격,https://allthatphone.github.io/galaxy-z-flip7-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0
+2026-11-13 20:10,websearch,갤럭시퀀텀5 가격,https://allthatphone.github.io/galaxy-quantum-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0
+2026-11-13 20:10,websearch,핸드폰 개통 방법,https://allthatphone.github.io/phone-activation-guide/,미노출,,웹검색 기준 · head_keyword · D+0
+2026-11-13 20:10,websearch,아이폰듀오 가격,https://allthatphone.github.io/iphone-duo-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+11
+2026-11-13 20:10,websearch,아이폰18 프로 가격,https://allthatphone.github.io/iphone-18-pro-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+11
+2026-11-13 20:10,websearch,갤럭시Z플립8 가격,https://allthatphone.github.io/galaxy-z-flip8-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+11
+2026-11-13 20:10,websearch,갤럭시S26 가격,https://allthatphone.github.io/galaxy-s26-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+10
+2026-11-13 20:10,websearch,폴더폰 가격,https://allthatphone.github.io/folder-phone-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+8
+2026-11-13 20:10,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(38편 게시) · 나머지 30편 키워드 검색은 오늘 미측정
+2026-11-13 20:10,websearch-ai,갤럭시 플립7 512GB 4월 인상 후 출고가 얼마? 플립8 256GB보다 비싸?,https://allthatphone.github.io/galaxy-z-flip7-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글)
+2026-11-13 20:10,websearch-ai,키즈폰 통신3사 출고가 얼마? 갤럭시 A17 LTE 기반 키즈폰 가격 비교,https://allthatphone.github.io/kids-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번)
