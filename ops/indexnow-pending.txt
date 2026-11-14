@@ -19,3 +19,4 @@ https://allthatphone.github.io/about/
 https://allthatphone.github.io/galaxy-wide-price-spec/
 https://allthatphone.github.io/galaxy-buddy-price-spec/
 https://allthatphone.github.io/galaxy-s24-ultra-price-spec/
+https://allthatphone.github.io/iphone-preorder-guide/
