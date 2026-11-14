@@ -3,6 +3,7 @@ https://allthatphone.github.io/about/
 https://allthatphone.github.io/faq/
 https://allthatphone.github.io/group-buy-prices/
 https://allthatphone.github.io/galaxy-buddy-price-spec/
+https://allthatphone.github.io/galaxy-s24-ultra-price-spec/
 https://allthatphone.github.io/galaxy-wide-price-spec/
 https://allthatphone.github.io/galaxy-z-flip8-price-spec/
 https://allthatphone.github.io/phone-seongji-cafe-guide/
