@@ -2,6 +2,8 @@ https://allthatphone.github.io/
 https://allthatphone.github.io/about/
 https://allthatphone.github.io/faq/
 https://allthatphone.github.io/group-buy-prices/
+https://allthatphone.github.io/galaxy-s26-price-spec/
+https://allthatphone.github.io/galaxy-s26-plus-price-spec/
 https://allthatphone.github.io/iphone-preorder-guide/
 https://allthatphone.github.io/second-phone/
 https://allthatphone.github.io/galaxy-buddy-price-spec/
@@ -39,7 +41,6 @@ https://allthatphone.github.io/galaxy-s25-price-spec/
 https://allthatphone.github.io/unlocked-vs-carrier/
 https://allthatphone.github.io/galaxy-z-fold8-price-spec/
 https://allthatphone.github.io/iphone-17-pro-price-spec/
-https://allthatphone.github.io/galaxy-s26-price-spec/
 https://allthatphone.github.io/galaxy-s26-ultra-price-spec/
 https://allthatphone.github.io/phone-by-budget/
 https://allthatphone.github.io/iphone-18-pro-price-spec/
