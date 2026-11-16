@@ -299,3 +299,11 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-16 09:40,websearch,갤럭시와이드9 가격 출고가,https://allthatphone.github.io/galaxy-wide-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+2 · 상위에 wikidocs.net/blog 노출
 2026-11-16 09:40,websearch,갤럭시A37 가격 출고가 국내,https://allthatphone.github.io/galaxy-a37-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+5
 2026-11-16 09:40,websearch,세컨폰 추천 2026 번호 하나 더,https://allthatphone.github.io/second-phone/,미노출,,웹검색 기준 · head_keyword · D+1
+2026-11-16 20:11,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(46편 게시 · faq 포함 47페이지)
+2026-11-16 20:11,websearch,폴드8 울트라 가격 출고가,https://allthatphone.github.io/galaxy-z-fold8-ultra-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 뉴시스·wikidocs(@wondergrid/@openwiki)·yellowit·iter.kr
+2026-11-16 20:11,websearch,MIVE 폴더폰 가격 스타일폴더2,https://allthatphone.github.io/mive-folder-phone-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 번개장터·다나와·모요
+2026-11-16 20:11,websearch,삼성 핸드폰 신형 2026 출시 순서,https://allthatphone.github.io/samsung-latest-phones/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 해외 매체(techradar·sammobile)
+2026-11-16 20:11,websearch,아이폰 듀오 가격 256GB 출고가,https://allthatphone.github.io/iphone-duo-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+14
+2026-11-16 20:11,websearch-ai,갤럭시 Z폴드8 울트라 256GB 출고가 얼마? 폴드7보다 얼마나 올랐나,https://allthatphone.github.io/galaxy-z-fold8-ultra-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0
+2026-11-16 20:11,websearch-ai,자급제폰 통신사 구매 어느 쪽이 싸? 선택약정 25% 계산,https://allthatphone.github.io/unlocked-vs-carrier/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+11
+2026-11-16 20:11,gsc,(콘솔),(사이트),미측정,,GPT R-016 11/13~11/15 PC 브라우저 미연결(browsers=[]) — 마지막 콘솔 11/12(구글 색인1·크롤링 10) · 출처 GPT
