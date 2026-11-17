@@ -307,3 +307,15 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-16 20:11,websearch-ai,갤럭시 Z폴드8 울트라 256GB 출고가 얼마? 폴드7보다 얼마나 올랐나,https://allthatphone.github.io/galaxy-z-fold8-ultra-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0
 2026-11-16 20:11,websearch-ai,자급제폰 통신사 구매 어느 쪽이 싸? 선택약정 25% 계산,https://allthatphone.github.io/unlocked-vs-carrier/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+11
 2026-11-16 20:11,gsc,(콘솔),(사이트),미측정,,GPT R-016 11/13~11/15 PC 브라우저 미연결(browsers=[]) — 마지막 콘솔 11/12(구글 색인1·크롤링 10) · 출처 GPT
+2026-11-17 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(49편 게시)
+2026-11-17 20:15,websearch,갤럭시 S26 FE 가격 출고가,https://allthatphone.github.io/galaxy-s26-fe-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 wikidocs(@openwiki)·블록미디어·파이낸셜뉴스·위키트리
+2026-11-17 20:15,websearch,학생폰 가격 2026,https://allthatphone.github.io/student-phone-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 모요·해외 매체
+2026-11-17 20:15,websearch,아이폰 자급제 구매 방법 애플 공식 리셀러 오픈마켓,https://allthatphone.github.io/iphone-unlocked-buy-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 tilnote·모요·foxcg
+2026-11-17 20:15,websearch,아이폰 듀오 가격 출고가,https://allthatphone.github.io/iphone-duo-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+15 · 네이버 site: 노출 글 · 상위 SBS Biz·한경·wikidocs(@devicepick)
+2026-11-17 20:15,websearch,갤럭시 S26 가격 256GB 10월 인상,https://allthatphone.github.io/galaxy-s26-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+14 · 네이버 site: 노출 글 · 상위 wikidocs(@wondergrid/@openwiki)·SBS Biz
+2026-11-17 20:15,websearch-ai,갤럭시 S26 FE 256GB 출고가 얼마? S26과 차이와 구독클럽 실부담,https://allthatphone.github.io/galaxy-s26-fe-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0
+2026-11-17 20:15,websearch-ai,번호이동 기기변경 뭐가 유리해? 위약금 계산법,https://allthatphone.github.io/mnp-vs-upgrade/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+11
+2026-11-17 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/17 12시대 · 페이지 보고서 색인3·미색인9(11/13 갱신) · 글별 URL검사 49건 중 색인1(FAQ) · 최근7일 노출2·클릭1(faq·about) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
+2026-11-17 20:15,gsc,(URL검사),https://allthatphone.github.io/faq/,색인됨,,GPT R-016 11/17 URL검사 첫 색인 확인(11/12 색인 요청 후) · 실적 노출1·클릭1(쿼리 site:github.io 평균 7.0) · 출처 GPT
+2026-11-17 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/17 14시대 · 진단 색인7(11/15 갱신) · 11/10 이후 같은 6편 · 출처 GPT
+2026-11-17 20:15,bing,(콘솔),(사이트),미색인,,GPT R-016 11/17 14:14 · 글별 49건 미색인(발견미수집24·미발견25) · Indexed URLs 'No data available' · IndexNow Insights 제출35·수집0·색인0 · 출처 GPT
