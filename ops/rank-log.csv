@@ -319,3 +319,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-17 20:15,gsc,(URL검사),https://allthatphone.github.io/faq/,색인됨,,GPT R-016 11/17 URL검사 첫 색인 확인(11/12 색인 요청 후) · 실적 노출1·클릭1(쿼리 site:github.io 평균 7.0) · 출처 GPT
 2026-11-17 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/17 14시대 · 진단 색인7(11/15 갱신) · 11/10 이후 같은 6편 · 출처 GPT
 2026-11-17 20:15,bing,(콘솔),(사이트),미색인,,GPT R-016 11/17 14:14 · 글별 49건 미색인(발견미수집24·미발견25) · Indexed URLs 'No data available' · IndexNow Insights 제출35·수집0·색인0 · 출처 GPT
+2026-11-18 20:10,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(52편 게시)
+2026-11-18 20:10,websearch,갤럭시 Z폴드7 가격 출고가 512GB 인상,https://allthatphone.github.io/galaxy-z-fold7-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 파이낸셜뉴스·헤럴드경제·삼성 뉴스룸·wikidocs(@openwiki)
+2026-11-18 20:10,websearch,KT 기기변경 방법 기변익스프레스,https://allthatphone.github.io/carrier-upgrade-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 moyoplan 커뮤니티 Q&A 12건
+2026-11-18 20:10,websearch,갤럭시 자급제폰 구매 방법 삼성닷컴 삼성카드 무이자,https://allthatphone.github.io/galaxy-unlocked-buy-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 samsung.com·moyoplan·compuzone·yellowit
+2026-11-18 20:10,websearch,아이폰18 프로 가격 출고가,https://allthatphone.github.io/iphone-18-pro-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+16 · Bing 색인됨(GPT 11/18) · 상위 디지털데일리·wikitree·SBS Biz·pickle.plus·wikidocs(@devicepick)
+2026-11-18 20:10,websearch-ai,갤럭시 Z폴드7 512GB 4월 인상 후 출고가 얼마? 폴드8보다 비싸?,https://allthatphone.github.io/galaxy-z-fold7-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0
+2026-11-18 20:10,websearch-ai,자급제폰 통신사 구매 어느 쪽이 싸? 선택약정 25% 계산,https://allthatphone.github.io/unlocked-vs-carrier/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+13 · 상위 moyoplan·tilnote·다나와
+2026-11-18 20:10,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/18 12시대 · 페이지 보고서 색인3·미색인9(11/13 갱신) · 글별 URL검사 51건 중 색인1(FAQ) · 최근7일 노출5·클릭1(쿼리 site:github.io·올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
+2026-11-18 20:10,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/18 · 진단 색인7(11/15 갱신) · 같은 6편 · R-027 18건(11/17 등록) 아직 미반영 · 출처 GPT
+2026-11-18 20:10,bing,(콘솔),(사이트),색인22,,GPT R-016 11/18 · 글별 51건 Indexed successfully22·발견미수집28·미발견1 · 첫 Bing 색인(전날 0) · 사이트 전체 'No data available' · 출처 GPT
