@@ -329,3 +329,12 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-18 20:10,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/18 12시대 · 페이지 보고서 색인3·미색인9(11/13 갱신) · 글별 URL검사 51건 중 색인1(FAQ) · 최근7일 노출5·클릭1(쿼리 site:github.io·올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
 2026-11-18 20:10,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/18 · 진단 색인7(11/15 갱신) · 같은 6편 · R-027 18건(11/17 등록) 아직 미반영 · 출처 GPT
 2026-11-18 20:10,bing,(콘솔),(사이트),색인22,,GPT R-016 11/18 · 글별 51건 Indexed successfully22·발견미수집28·미발견1 · 첫 Bing 색인(전날 0) · 사이트 전체 'No data available' · 출처 GPT
+2026-11-19 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(55편 게시)
+2026-11-19 20:15,websearch,올댓폰 가격노트 allthatphone,(사이트),미노출,,웹검색 기준 · 브랜드 검색
+2026-11-19 20:15,websearch,갤럭시 S25 엣지 가격 출고가 512GB 인상,https://allthatphone.github.io/galaxy-s25-edge-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 daum·헤럴드경제·파이낸셜뉴스·삼성 뉴스룸
+2026-11-19 20:15,websearch,SKT 번호이동 방법 사전동의 수수료,https://allthatphone.github.io/carrier-mnp-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 pickle.plus·moyoplan·yellowit·T world
+2026-11-19 20:15,websearch,휴대폰 개통 조회 방법 엠세이퍼 가입제한,https://allthatphone.github.io/phone-line-lookup-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 yugacrew·tilnote·korea.legal·moyoplan
+2026-11-19 20:15,websearch,갤럭시 S25 가격 출고가 256GB,https://allthatphone.github.io/galaxy-s25-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+14 · 상위 파이낸셜뉴스·ceoscoredaily·moyoplan·하이마트·11번가
+2026-11-19 20:15,websearch-ai,갤럭시 S25 엣지 512GB 4월 인상 후 출고가 얼마? S26 플러스보다 싸?,https://allthatphone.github.io/galaxy-s25-edge-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 SBS Biz·inews24·wikidocs(@openwiki)
+2026-11-19 20:15,websearch-ai,갤럭시 S25 지금 사도 될까? 256GB 출고가와 S26 차이,https://allthatphone.github.io/galaxy-s25-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+14 · 상위 다나와·wikidocs·brunch
+2026-11-19 20:15,gsc,(콘솔),(사이트),미측정,,GPT R-016 11/19분 20:30 실행 전(마지막 값 11/18 12시대 색인3·글별 FAQ1·7일 노출5·클릭1) · 출처 GPT
