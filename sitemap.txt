@@ -2,7 +2,9 @@ https://allthatphone.github.io/
 https://allthatphone.github.io/about/
 https://allthatphone.github.io/faq/
 https://allthatphone.github.io/group-buy-prices/
+https://allthatphone.github.io/phone-activation-guide/
 https://allthatphone.github.io/carrier-mnp-guide/
+https://allthatphone.github.io/phone-line-lookup-guide/
 https://allthatphone.github.io/carrier-upgrade-guide/
 https://allthatphone.github.io/galaxy-unlocked-buy-guide/
 https://allthatphone.github.io/galaxy-z-fold7-price-spec/
@@ -24,7 +26,6 @@ https://allthatphone.github.io/galaxy-wide-price-spec/
 https://allthatphone.github.io/phone-seongji-cafe-guide/
 https://allthatphone.github.io/galaxy-quantum-price-spec/
 https://allthatphone.github.io/galaxy-z-flip7-price-spec/
-https://allthatphone.github.io/phone-activation-guide/
 https://allthatphone.github.io/galaxy-a-series-price-spec/
 https://allthatphone.github.io/galaxy-s24-fe-price-spec/
 https://allthatphone.github.io/iphone-15-price-spec/
