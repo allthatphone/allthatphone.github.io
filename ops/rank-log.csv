@@ -338,3 +338,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-19 20:15,websearch-ai,갤럭시 S25 엣지 512GB 4월 인상 후 출고가 얼마? S26 플러스보다 싸?,https://allthatphone.github.io/galaxy-s25-edge-price-spec/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 SBS Biz·inews24·wikidocs(@openwiki)
 2026-11-19 20:15,websearch-ai,갤럭시 S25 지금 사도 될까? 256GB 출고가와 S26 차이,https://allthatphone.github.io/galaxy-s25-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+14 · 상위 다나와·wikidocs·brunch
 2026-11-19 20:15,gsc,(콘솔),(사이트),미측정,,GPT R-016 11/19분 20:30 실행 전(마지막 값 11/18 12시대 색인3·글별 FAQ1·7일 노출5·클릭1) · 출처 GPT
+2026-11-20 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · site: 결과에 이 사이트 0건(59편 게시)
+2026-11-20 20:15,websearch,아이폰 가격 총정리 2026 모델별 용량별,https://allthatphone.github.io/iphone-price-lineup/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 foxcg·brunch·pickle.plus·ajd·apple.com/kr·wikidocs(@openwiki)·디지털데일리
+2026-11-20 20:15,websearch,갤럭시 A17 가격 출고가,https://allthatphone.github.io/galaxy-a17-price-spec/,미노출,,웹검색 기준 · head_keyword+가격 · D+0 · 상위 SBS Biz·삼성 뉴스룸·moyoplan·11번가·samsung.com·디지털데일리
+2026-11-20 20:15,websearch,2G폰 개통 방법 폴더폰 개통 HD Voice,https://allthatphone.github.io/folder-phone-activation-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 T world·samsungsvc·moyoplan·lguplus·ytn
+2026-11-20 20:15,websearch,갤럭시 S24 가격 출고가 256GB,https://allthatphone.github.io/galaxy-s24-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+12 · 상위 compuzone·삼성 커뮤니티·heraldk·moyoplan·11번가·디지털데일리
+2026-11-20 20:15,websearch-ai,아이폰 지금 파는 모델 가격 얼마? 아이폰17e부터 듀오까지 용량별 애플 공식가,https://allthatphone.github.io/iphone-price-lineup/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 wikidocs(@openwiki)·itworld·apple.com/kr
+2026-11-20 20:15,websearch-ai,키즈폰 가격 얼마? 통신3사 키즈폰 출고가 비교 2026,https://allthatphone.github.io/kids-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+13 · 상위 ajd·뉴스토마토·daum·디지털데일리·더팩트
+2026-11-20 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/19 20:34~20:45 · 페이지 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 56건 중 색인1(FAQ) · 최근7일 노출5·클릭1(쿼리 site:github.io·올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
+2026-11-20 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/19 · 진단 색인7(11/18 갱신) · 같은 6편 · 수집현황 차트 11/17 완료24 · R-027 18건(11/17)·R-028~R-030 아직 미반영 · 출처 GPT
+2026-11-20 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/19 · 글별 56건 Indexed successfully22·발견미수집24·미발견10 · 듀오·S26 울트라·스마트폰 추천·S26 4편 발견미수집→Not discovered · 사이트 전체 'No data available' · 출처 GPT
