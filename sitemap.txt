@@ -2,6 +2,8 @@ https://allthatphone.github.io/
 https://allthatphone.github.io/about/
 https://allthatphone.github.io/faq/
 https://allthatphone.github.io/group-buy-prices/
+https://allthatphone.github.io/galaxy-s25-edge-price-spec/
+https://allthatphone.github.io/galaxy-s25-plus-price-spec/
 https://allthatphone.github.io/iphone-compare-lineup/
 https://allthatphone.github.io/phone-online-activation-guide/
 https://allthatphone.github.io/xiaomi-18-pro-max-price-spec/
@@ -11,7 +13,6 @@ https://allthatphone.github.io/galaxy-a17-price-spec/
 https://allthatphone.github.io/iphone-price-lineup/
 https://allthatphone.github.io/phone-activation-guide/
 https://allthatphone.github.io/carrier-mnp-guide/
-https://allthatphone.github.io/galaxy-s25-edge-price-spec/
 https://allthatphone.github.io/phone-line-lookup-guide/
 https://allthatphone.github.io/carrier-upgrade-guide/
 https://allthatphone.github.io/galaxy-unlocked-buy-guide/
