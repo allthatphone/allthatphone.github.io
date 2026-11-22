@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>핸드폰 요금할인 신청 방법 — 선택약정 25% 대상 조회부터 통신 3사 신청 경로·재약정·위약금 계산까지 | 올댓폰 가격노트</title>
+<meta name="description" content="핸드폰 요금할인(선택약정 25%)은 자동으로 붙지 않아 직접 신청해야 합니다. 대상 폰 IMEI 조회 → 12·24개월 선택 → 앱·고객센터·매장 신청 3단계와 재약정 시기, 중도 해지 위약금 계산 예시(2026년 11월 22일 기준).">
+<link rel="canonical" href="https://allthatphone.github.io/selective-discount-apply-guide/">
+<meta property="og:type" content="website"><meta property="og:title" content="핸드폰 요금할인 신청 방법 — 선택약정 25% 대상 조회부터 통신 3사 신청 경로·재약정·위약금 계산까지 | 올댓폰 가격노트">
+<meta property="og:description" content="핸드폰 요금할인(선택약정 25%)은 자동으로 붙지 않아 직접 신청해야 합니다. 대상 폰 IMEI 조회 → 12·24개월 선택 → 앱·고객센터·매장 신청 3단계와 재약정 시기, 중도 해지 위약금 계산 예시(2026년 11월 22일 기준)."><meta property="og:url" content="https://allthatphone.github.io/selective-discount-apply-guide/">
+<meta property="og:site_name" content="올댓폰 가격노트"><meta property="og:locale" content="ko_KR">
+<link rel="icon" href="https://allthatphone.github.io/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="https://allthatphone.github.io/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="올댓폰 가격노트" href="https://allthatphone.github.io/rss.xml">
+<meta name="naver-site-verification" content="2703bce6323c7aa40a1235e0706bef356255f895">
+<meta name="google-site-verification" content="AyAzCFOf589QtsLQY7zokM3lmj9fW28JrjVYQXY7bbU">
+<style>
+:root{--bg:#ffffff;--fg:#1d1f23;--muted:#5d636e;--line:#e4e6ea;--soft:#f5f6f8;--accent:#d6372b;--accent-soft:#fdeceb;--link:#1f5fbf}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#eceef1;--muted:#a3a9b3;--line:#2c3036;--soft:#1e2125;--accent:#ff6b5f;--accent-soft:#3a1f1d;--link:#7fb0ff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;word-break:keep-all}
+a{color:var(--link)}header.top{border-bottom:1px solid var(--line)}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.logo{font-weight:800;font-size:19px;color:var(--fg);text-decoration:none}.logo span{color:var(--accent)}
+.top nav a{margin-left:14px;color:var(--muted);text-decoration:none;font-size:14px}
+h1{font-size:27px;line-height:1.35;margin:28px 0 8px}h2{font-size:21px;margin:40px 0 12px;padding-top:8px;border-top:1px solid var(--line)}h3{font-size:17px;margin:24px 0 8px}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--accent-soft);border-left:4px solid var(--accent);padding:14px 16px;border-radius:6px;margin:20px 0}
+.answer b{display:block;font-size:13px;color:var(--accent);margin-bottom:4px}
+table{width:100%;border-collapse:collapse;margin:12px 0 4px;font-size:15px}th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-weight:700;white-space:nowrap}td.num{text-align:right;white-space:nowrap}
+.tbl{overflow-x:auto}.note{color:var(--muted);font-size:13px;margin:4px 0 16px}
+.cta{border:1px solid var(--line);border-radius:10px;padding:18px;margin:32px 0;background:var(--soft)}
+.cta a.btn{display:inline-block;margin-top:10px;background:var(--accent);color:#fff;text-decoration:none;padding:10px 16px;border-radius:8px;font-weight:700}
+.cta small{display:block;color:var(--muted);margin-top:10px}
+details{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:8px 0}summary{font-weight:700;cursor:pointer}
+.cards{list-style:none;padding:0}.cards li{border-bottom:1px solid var(--line);padding:16px 0}.cards a{font-weight:700;font-size:17px;text-decoration:none;color:var(--fg)}.cards p{margin:4px 0;color:var(--muted);font-size:15px}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:20px;padding:1px 9px;margin-right:6px;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:48px;padding:24px 0;color:var(--muted);font-size:13px}
+.src li{font-size:14px}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "올댓폰 가격노트", "url": "https://allthatphone.github.io/", "description": "최신 휴대폰 모델의 국내 출고가, 용량별 가격, 핵심 스펙, 통신사 공동구매로 실제 사는 방법을 공식 자료 기준으로 정리합니다.", "sameAs": ["https://cafe.naver.com/cutebell", "https://htglove.github.io/"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "핸드폰 요금할인 신청 방법 — 선택약정 25% 대상 조회부터 통신 3사 신청 경로·재약정·위약금 계산까지", "description": "핸드폰 요금할인(선택약정 25%)은 단말 지원금을 받지 않은 폰이면 월 요금의 25%를 12개월 또는 24개월 동안 깎아 주는 제도이고, 약정이 끝난 폰도 다시 신청하면 받을 수 있지만 자동으로 붙지는 않습니다. 2026년 11월 22일 확인한 SK텔레콤 공식 안내 기준으로 신청은 T world(온라인)·고객센터 1599-0011(평일 9~18시)·지점·대리점에서 하고, 할인액은 '(월정액 − 기본 약정할인) × 25%'입니다. 월 8만 9,000원 요금제는 매달 2만 2,250원, 24개월이면 53만 4,000원이 깎입니다.", "datePublished": "2026-11-22", "dateModified": "2026-11-22", "inLanguage": "ko-KR", "mainEntityOfPage": "https://allthatphone.github.io/selective-discount-apply-guide/", "author": {"@type": "Organization", "name": "올댓폰 가격노트", "url": "https://allthatphone.github.io/"}, "publisher": {"@type": "Organization", "name": "올댓폰 가격노트"}, "about": {"@type": "Product", "name": "선택약정 25% 요금할인 신청(통신 3사)", "brand": {"@type": "Brand", "name": "개통 가이드"}}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "올댓폰 가격노트", "item": "https://allthatphone.github.io/"}, {"@type": "ListItem", "position": 2, "name": "핸드폰 요금할인 신청 방법 — 선택약정 25% 대상 조회부터 통신 3사 신청 경로·재약정·위약금 계산까지", "item": "https://allthatphone.github.io/selective-discount-apply-guide/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "핸드폰 요금할인(선택약정 25%)은 어디서 신청하나요?", "acceptedAnswer": {"@type": "Answer", "text": "가입한 통신사의 앱·홈페이지, 고객센터, 매장 세 곳 중 한 곳에서 신청합니다. SK텔레콤은 T world 온라인, 고객센터 1599-0011(평일 9~18시, 12~13시는 긴급 상담만), 전국 지점·대리점을 신청 채널로 안내합니다. KT·LG U+도 같은 제도를 운영하며, 채널별 세부 시간은 각 사 고객센터 안내를 확인하세요."}}, {"@type": "Question", "name": "핸드폰 약정할인 대상인지 어떻게 확인하나요?", "acceptedAnswer": {"@type": "Answer", "text": "폰에서 *#06#을 눌러 나온 IMEI(단말 식별번호)를 스마트초이스(www.smartchoice.or.kr) '요금할인 대상 단말기 조회'에 넣으면 됩니다. 지원금을 받은 적 없는 새 폰, 자급제폰, 개통 24개월이 지난 중고폰, 지원금 약정이 끝난 폰이 기본 대상입니다."}}, {"@type": "Question", "name": "약정이 끝나면 선택약정 할인이 자동으로 연장되나요?", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 약정 기간이 끝나면 할인도 끝나고, 같은 폰을 계속 쓰려면 다시 신청해야 합니다. SK텔레콤은 12개월 약정이면 가입일부터 365일, 24개월이면 730일까지 할인이 유지된다고 안내합니다."}}, {"@type": "Question", "name": "선택약정 만료 전에 미리 재약정할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "할 수 있고, 조건을 맞추면 남은 기간 위약금도 바로 청구되지 않습니다. SK텔레콤은 기존 선택약정 고객이나 지원금 약정이 180일 이하 남은 고객이 재약정할 때 원하면 할인반환금을 넘겨받아(유예) 준다고 안내하고, KT는 재약정 기간이 남은 기간보다 길면 청구를 유예합니다. LG U+는 2018년부터 약정 기간과 관계없이 유예합니다. 단, 재약정 뒤 원래 약정 종료일 전에 해지하면 두 약정 반환금이 함께 청구될 수 있습니다."}}, {"@type": "Question", "name": "선택약정 12개월과 24개월 중 뭐가 나은가요?", "acceptedAnswer": {"@type": "Answer", "text": "월 할인율(25%)은 같고, 폰을 2년 안에 바꿀 가능성이 있으면 12개월이 안전합니다. SK텔레콤 산식으로 월 8만 9,000원 요금제를 12개월 쓰고 해지하면 24개월 약정은 약 17만 7,000원을 돌려내야 하지만, 12개월 약정은 만료라 0원입니다. 약정 기간은 가입 뒤 12개월↔24개월로 바꿀 수 없습니다."}}, {"@type": "Question", "name": "자급제폰이나 중고폰도 핸드폰 요금할인 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "받을 수 있습니다. 자급제폰은 지원금을 받은 적이 없어 바로 대상이고, 중고폰은 SK텔레콤 기준 최초 개통 후 24개월이 지나야 합니다. 다른 통신사에서 지원금을 받고 개통한 폰은 개통 6개월 뒤부터 가입할 수 있습니다(본인 인증 시 지점·고객센터에서는 예외 가능)."}}, {"@type": "Question", "name": "공시지원금 받은 폰인데 지금 선택약정으로 바꿀 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "남은 지원금 위약금을 내면 가능합니다. SK텔레콤은 자사 단말이면 '공통지원금 위약금 납부 시 가입 가능', KT는 '공시지원금을 받았더라도 할인반환금을 납부하는 경우' 가입 대상으로 둡니다. 위약금이 크면 지원금 약정이 끝난 뒤 신청하는 편이 보통 낫습니다. 어느 쪽이 유리한지는 공시지원금 vs 선택약정 글의 '월 요금 × 6' 기준으로 계산하세요."}}, {"@type": "Question", "name": "알뜰폰도 선택약정 25% 할인이 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "되지 않습니다. 선택약정 25%는 SK텔레콤·KT·LG U+ 통신 3사 회선의 제도이고, 알뜰폰은 대상이 아닙니다. 알뜰폰 요금은 이미 낮게 책정된 대신 이 할인이 없습니다."}}]}</script>
+</head><body>
+<header class="top"><div class="wrap"><a class="logo" href="https://allthatphone.github.io/">올댓폰 가격<span>노트</span></a>
+<nav><a href="https://allthatphone.github.io/">모델 목록</a><a href="https://allthatphone.github.io/about/">소개</a><a href="https://allthatphone.github.io/group-buy-prices/">공동구매 가격</a><a href="https://allthatphone.github.io/faq/">자주 묻는 질문</a></nav></div></header>
+<main class="wrap"><p class="meta"><span class="tag">개통 가이드</span>기준일 2026-11-22</p>
+<h1>핸드폰 요금할인 신청 방법 — 선택약정 25% 대상 조회부터 통신 3사 신청 경로·재약정·위약금 계산까지</h1>
+<div class="answer"><b>한눈에 보는 답</b>핸드폰 요금할인(선택약정 25%)은 단말 지원금을 받지 않은 폰이면 월 요금의 25%를 12개월 또는 24개월 동안 깎아 주는 제도이고, 약정이 끝난 폰도 다시 신청하면 받을 수 있지만 자동으로 붙지는 않습니다. 2026년 11월 22일 확인한 SK텔레콤 공식 안내 기준으로 신청은 T world(온라인)·고객센터 1599-0011(평일 9~18시)·지점·대리점에서 하고, 할인액은 &#x27;(월정액 − 기본 약정할인) × 25%&#x27;입니다. 월 8만 9,000원 요금제는 매달 2만 2,250원, 24개월이면 53만 4,000원이 깎입니다.</div>
+<p><strong>핸드폰 요금할인 신청</strong>이라고 검색하는 분 대부분이 찾는 것은 <strong>선택약정 25% 요금할인</strong>입니다. 선택약정은 단말 지원금을 받지 않는 대신 매달 요금의 25%를 12개월 또는 24개월 깎아 주는 통신 3사 제도이고, <strong>가입자가 직접 신청해야만 붙습니다.</strong> 자급제폰을 새로 샀거나, 지원금 약정이 끝났거나, 선택약정 만료 문자를 받았다면 지금 신청할 대상입니다.</p>
+<p>지원금과 선택약정 중 무엇이 유리한지는 <a href="https://allthatphone.github.io/subsidy-vs-discount/">공시지원금 vs 선택약정</a>에서 '월 요금 × 6' 기준으로 정리했습니다. 이 글은 <strong>선택약정으로 정한 뒤 실제로 신청하는 순서</strong>와 막히는 지점만 다룹니다.</p>
+<h2 id="3">핸드폰 요금할인 신청 3단계</h2>
+<table>
+<thead>
+<tr>
+<th>단계</th>
+<th>할 일</th>
+<th>걸리는 시간</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>대상 폰인지 조회: 폰에서 *#06# → IMEI 확인 → 스마트초이스 '요금할인 대상 단말기 조회'</td>
+<td>2분</td>
+<td>지원금 이력·중고폰 개통 기간</td>
+</tr>
+<tr>
+<td>2</td>
+<td>약정 기간 고르기: 12개월 또는 24개월</td>
+<td>—</td>
+<td>2년 안에 폰·통신사를 바꿀 계획</td>
+</tr>
+<tr>
+<td>3</td>
+<td>통신사에 신청: 앱·홈페이지, 고객센터, 매장 중 한 곳</td>
+<td>온라인 5분 안팎</td>
+<td>신청 뒤 다음 달 청구서에 할인 줄이 찍혔는지</td>
+</tr>
+</tbody>
+</table>
+<p>신청한 달은 날짜만큼 나눠서(일할) 할인되고, SK텔레콤 기준으로 12개월 약정은 가입일부터 365일, 24개월은 730일까지 유지됩니다. 예를 들어 15일에 신청하면 그달은 절반 정도만 깎이고 다음 달부터 25%가 온전히 적용됩니다.</p>
+<h2 id="1">1단계 — 선택약정 대상인지 먼저 조회</h2>
+<table>
+<thead>
+<tr>
+<th>내 폰 상황</th>
+<th>선택약정 가능 여부(SK텔레콤 공식 기준 + 정책브리핑)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>자급제로 산 새 폰</td>
+<td>바로 가능</td>
+</tr>
+<tr>
+<td>지원금 약정이 끝난 폰(같은 폰 계속 사용)</td>
+<td>다시 신청하면 가능</td>
+</tr>
+<tr>
+<td>선택약정이 끝난 폰</td>
+<td>다시 신청하면 가능</td>
+</tr>
+<tr>
+<td>중고폰(공기계)</td>
+<td>최초 개통 후 24개월이 지난 폰만 가능</td>
+</tr>
+<tr>
+<td>다른 통신사에서 지원금 받고 개통한 폰</td>
+<td>개통 6개월 뒤부터 가능(본인 인증 시 지점·고객센터에서 예외 가능)</td>
+</tr>
+<tr>
+<td>지금 지원금 약정 중인 폰</td>
+<td>남은 지원금 위약금을 내야 가능</td>
+</tr>
+<tr>
+<td>알뜰폰 회선</td>
+<td>불가(통신 3사 제도)</td>
+</tr>
+<tr>
+<td>선불폰·M2M(012 번호)·로밍 임대폰</td>
+<td>불가</td>
+</tr>
+</tbody>
+</table>
+<p>조회는 폰 다이얼에 *#06#을 눌러 나온 IMEI 15자리를 스마트초이스(www.smartchoice.or.kr)에 넣으면 됩니다. 스마트초이스는 통신 3사와 한국통신사업자연합회가 함께 운영하는 사이트로, 같은 곳에서 지원금 조회와 할인반환금 조회도 할 수 있습니다. 중고폰을 사기 전이라면 판매자에게 IMEI를 받아 미리 조회해 두는 것이 안전합니다. 공기계를 고르는 기준은 <a href="https://allthatphone.github.io/unlocked-used-guide/">휴대폰 공기계 구매 가이드</a>에 있습니다.</p>
+<h2 id="2-12-vs-24-2">2단계 — 12개월 vs 24개월, 기준은 '2년 안에 바꿀 일이 있나'</h2>
+<p>월 할인율은 둘 다 25%로 같습니다. 차이는 중간에 해지할 때 돌려내는 돈(할인반환금)입니다. SK텔레콤이 공개한 반환금 산식은 다음과 같습니다.</p>
+<table>
+<thead>
+<tr>
+<th>약정</th>
+<th>초반 구간</th>
+<th>그 뒤</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12개월</td>
+<td>3개월 이하 사용 시 받은 할인 100% 반환</td>
+<td>받은 할인 × 남은 일수 ÷ (365 − 90)</td>
+</tr>
+<tr>
+<td>24개월</td>
+<td>6개월 이하 사용 시 받은 할인 100% 반환</td>
+<td>받은 할인 × 남은 일수 ÷ (730 − 180)</td>
+</tr>
+</tbody>
+</table>
+<p>이 산식으로 월 8만 9,000원 요금제(월 할인 2만 2,250원)를 쓰다 해지하면 반환금이 이렇게 됩니다. 한 달을 30일로 잡은 계산 예시입니다.</p>
+<table>
+<thead>
+<tr>
+<th>해지 시점</th>
+<th>24개월 약정 반환금</th>
+<th>12개월 약정 반환금</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3개월</td>
+<td>6만 6,750원</td>
+<td>6만 6,750원</td>
+</tr>
+<tr>
+<td>6개월</td>
+<td>13만 3,500원</td>
+<td>약 8만 9,800원</td>
+</tr>
+<tr>
+<td>7개월</td>
+<td>약 14만 7,300원</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12개월</td>
+<td>약 17만 7,200원(가장 큼)</td>
+<td>0원(만료)</td>
+</tr>
+<tr>
+<td>18개월</td>
+<td>약 13만 4,700원</td>
+<td>—</td>
+</tr>
+<tr>
+<td>23개월</td>
+<td>약 2만 7,900원</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>24개월 약정은 1년 차 전후에 해지하면 반환금이 가장 큽니다. 새 모델이 나올 때마다 폰을 바꾸는 편이거나 번호이동을 고민 중이면 12개월, 같은 폰을 2년 이상 쓸 생각이면 24개월이 편합니다(만료 때 한 번만 다시 신청하면 됨). <strong>가입 뒤 12개월↔24개월 변경은 안 됩니다.</strong></p>
+<h2 id="3-3">3단계 — 통신 3사 신청 경로</h2>
+<table>
+<thead>
+<tr>
+<th>통신사</th>
+<th>온라인</th>
+<th>전화</th>
+<th>매장</th>
+<th>확인한 공식 조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SK텔레콤</td>
+<td>T world(웹·앱)</td>
+<td>고객센터 1599-0011(평일 9~18시, 12~13시는 긴급 상담만)</td>
+<td>전국 지점·대리점</td>
+<td>요금제 간 변경 월 1회, 정지 기간만큼 약정 연장, 가입 중 레인보우 포인트 적립 중단</td>
+</tr>
+<tr>
+<td>KT</td>
+<td>KT닷컴 '요금할인 25%' 안내</td>
+<td>고객센터</td>
+<td>매장</td>
+<td>지원금 미수령 고객 대상, 지원금 받은 폰은 반환금 납부 시 가입</td>
+</tr>
+<tr>
+<td>LG U+</td>
+<td>유플러스닷컴</td>
+<td>고객센터</td>
+<td>매장</td>
+<td>재약정 시 약정 기간과 관계없이 위약금 유예(2018년 발표)</td>
+</tr>
+</tbody>
+</table>
+<p>KT·LG U+는 이번에 공식 페이지 세부(채널별 시간)를 직접 열어 확인하지 못해, 위 표에는 사이트가 앞서 확인한 조건만 넣었습니다. 어느 통신사든 <strong>명의자 본인</strong>이 신청해야 하고, 미성년자 회선은 법정대리인 동의가 필요한 경우가 많아 매장이나 고객센터가 빠릅니다(<a href="https://allthatphone.github.io/minor-phone-activation/">미성년자 핸드폰 개통 방법</a> 참고).</p>
+<h2 id="_1">재약정은 언제 하나 — 만료 전 신청과 위약금 유예</h2>
+<p>선택약정이 끝나기 전에 미리 다시 걸어 둘 수도 있습니다. 이때 남은 기간의 반환금을 바로 내지 않도록 통신사마다 유예 규칙을 둡니다.</p>
+<table>
+<thead>
+<tr>
+<th>통신사</th>
+<th>만료 전 재약정 시 반환금</th>
+<th>조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SK텔레콤</td>
+<td>원하면 넘겨받아 부과 유예</td>
+<td>기존 선택약정 고객 또는 지원금 약정이 180일 이하 남은 고객, 지점·대리점·고객센터에서 신청, 승계 중에는 다시 승계 불가</td>
+</tr>
+<tr>
+<td>KT</td>
+<td>청구 유예</td>
+<td>재약정 기간이 남은 약정 기간보다 길어야 함</td>
+</tr>
+<tr>
+<td>LG U+</td>
+<td>유예</td>
+<td>약정 기간과 관계없이(2018년 1월 발표)</td>
+</tr>
+</tbody>
+</table>
+<p>유예는 면제가 아닙니다. 재약정 뒤 <strong>원래 약정 종료일 전에</strong> 해지하면 두 약정의 반환금이 합쳐 청구될 수 있습니다. 만료 직후 신청하면 이런 계산이 필요 없으니, 만료 안내 문자를 받은 주에 신청하는 것이 가장 단순합니다.</p>
+<h2 id="25">할인액은 얼마나 — '(월정액 − 기본 약정할인) × 25%'</h2>
+<p>SK텔레콤 공식 산식은 요금제 월정액에서 기본 요금약정 할인을 뺀 뒤 25%를 곱하는 방식입니다. 기본 약정할인이 없는 요금제라면 월정액 × 25%입니다.</p>
+<table>
+<thead>
+<tr>
+<th>월정액</th>
+<th>월 할인</th>
+<th>12개월 합계</th>
+<th>24개월 합계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4만 5,000원</td>
+<td>1만 1,250원</td>
+<td>13만 5,000원</td>
+<td>27만원</td>
+</tr>
+<tr>
+<td>6만 9,000원</td>
+<td>1만 7,250원</td>
+<td>20만 7,000원</td>
+<td>41만 4,000원</td>
+</tr>
+<tr>
+<td>8만 9,000원</td>
+<td>2만 2,250원</td>
+<td>26만 7,000원</td>
+<td>53만 4,000원</td>
+</tr>
+<tr>
+<td>10만 9,000원</td>
+<td>2만 7,250원</td>
+<td>32만 7,000원</td>
+<td>65만 4,000원</td>
+</tr>
+</tbody>
+</table>
+<p>자급제폰과 선택약정을 묶었을 때 통신사 구매보다 유리한지 계산하는 방법은 <a href="https://allthatphone.github.io/unlocked-vs-carrier/">자급제폰 vs 통신사 구매</a>에 있습니다.</p>
+<h2 id="5">핸드폰 요금할인 신청이 막히는 지점 5가지</h2>
+<ol>
+<li><strong>할인이 안 붙었는데 모르고 지나감</strong> — 신청 다음 달 청구서에 '선택약정 할인' 줄이 있는지 꼭 봅니다. 할인은 신청한 날부터 일할로 붙으므로, 만료 뒤 늦게 신청한 기간만큼 할인을 못 받습니다.</li>
+<li><strong>미대상 요금제로 변경</strong> — 대상이 아닌 요금제로 바꾸면 할인이 해지되고 반환금이 생깁니다. 대상 요금제끼리 바꾸는 것도 SK텔레콤은 월 1회만 됩니다.</li>
+<li><strong>중고폰 개통 24개월 미만</strong> — 산 지 얼마 안 된 중고폰은 조회에서 걸립니다. 구매 전 IMEI 조회가 답입니다.</li>
+<li><strong>명의변경 때 약정 미승계</strong> — 약정을 넘기지 않고 명의만 바꾸면 반환금이 청구됩니다.</li>
+<li><strong>지원금 약정 중 성급한 전환</strong> — 지원금 위약금이 선택약정으로 아끼는 돈보다 큰 경우가 많습니다. 남은 기간이 길면 만료까지 기다리는 쪽을 먼저 계산하세요.</li>
+</ol>
+<h2 id="_2">폰 바꿀 때는 선택약정을 처음부터</h2>
+<p>새 폰을 살 때는 개통하면서 바로 선택약정을 고르면 따로 신청할 일이 없습니다. <a href="https://allthatphone.github.io/galaxy-unlocked-buy-guide/">갤럭시 자급제폰 구매 방법</a>·<a href="https://allthatphone.github.io/iphone-unlocked-buy-guide/">아이폰 자급제 구매 방법</a>으로 산 폰은 유심만 넣고 위 3단계로 신청하면 됩니다. 모델별 출고가는 <a href="https://allthatphone.github.io/galaxy-s26-price-spec/">갤럭시 S26 가격</a>·<a href="https://allthatphone.github.io/iphone-17-price-spec/">아이폰17 가격</a>·<a href="https://allthatphone.github.io/galaxy-s25-plus-price-spec/">갤럭시 S25 플러스 가격</a>에 정리했습니다.</p>
+<p>올댓폰은 전국 휴대폰 성지 매장이 입점한 네이버 카페로, 3개월 이상·문제 0건 매장의 현금가만 올리는 인증 시세표와, 카페가 직접 운영해 요금제·부가서비스 강제가 없는 택배 공동구매를 함께 제공합니다. 택배 공동구매로 폰을 받은 뒤에도 지원금 방식에 따라 선택약정 신청 여부를 직접 확인하는 것이 좋습니다. 입점 매장 구매는 매장별 조건이 있을 수 있습니다. 공동구매 방식은 <a href="https://allthatphone.github.io/phone-group-buy/">휴대폰 공동구매란</a>에 있습니다.</p>
+<div class="cta"><strong>선택약정 25% 요금할인 신청(통신 3사) 실제 구매가가 궁금하다면</strong><br>
+출고가는 시작점일 뿐이고, 실제로 내는 돈은 통신사·가입 방법(번호이동/기기변경)·요금제 조건에 따라 달라집니다.
+올댓폰 카페에서는 요금제·부가서비스를 강제하지 않는 SKT·KT·LG U+ 온라인 공동구매 가격을 모델별로 공개합니다.
+<br><a class="btn" href="https://cafe.naver.com/cutebell" rel="noopener">선택약정 25% 요금할인 신청(통신 3사) 공동구매 가격 보기</a>
+<small>이 사이트의 공동구매 안내는 운영자와 관련된 올댓폰 카페 게시글을 기준으로 합니다.</small></div>
+<h2 id="faq">자주 묻는 질문</h2>
+<details open><summary>핸드폰 요금할인(선택약정 25%)은 어디서 신청하나요?</summary><p>가입한 통신사의 앱·홈페이지, 고객센터, 매장 세 곳 중 한 곳에서 신청합니다. SK텔레콤은 T world 온라인, 고객센터 1599-0011(평일 9~18시, 12~13시는 긴급 상담만), 전국 지점·대리점을 신청 채널로 안내합니다. KT·LG U+도 같은 제도를 운영하며, 채널별 세부 시간은 각 사 고객센터 안내를 확인하세요.</p></details>
+<details open><summary>핸드폰 약정할인 대상인지 어떻게 확인하나요?</summary><p>폰에서 *#06#을 눌러 나온 IMEI(단말 식별번호)를 스마트초이스(www.smartchoice.or.kr) &#x27;요금할인 대상 단말기 조회&#x27;에 넣으면 됩니다. 지원금을 받은 적 없는 새 폰, 자급제폰, 개통 24개월이 지난 중고폰, 지원금 약정이 끝난 폰이 기본 대상입니다.</p></details>
+<details open><summary>약정이 끝나면 선택약정 할인이 자동으로 연장되나요?</summary><p>아니요. 약정 기간이 끝나면 할인도 끝나고, 같은 폰을 계속 쓰려면 다시 신청해야 합니다. SK텔레콤은 12개월 약정이면 가입일부터 365일, 24개월이면 730일까지 할인이 유지된다고 안내합니다.</p></details>
+<details open><summary>선택약정 만료 전에 미리 재약정할 수 있나요?</summary><p>할 수 있고, 조건을 맞추면 남은 기간 위약금도 바로 청구되지 않습니다. SK텔레콤은 기존 선택약정 고객이나 지원금 약정이 180일 이하 남은 고객이 재약정할 때 원하면 할인반환금을 넘겨받아(유예) 준다고 안내하고, KT는 재약정 기간이 남은 기간보다 길면 청구를 유예합니다. LG U+는 2018년부터 약정 기간과 관계없이 유예합니다. 단, 재약정 뒤 원래 약정 종료일 전에 해지하면 두 약정 반환금이 함께 청구될 수 있습니다.</p></details>
+<details open><summary>선택약정 12개월과 24개월 중 뭐가 나은가요?</summary><p>월 할인율(25%)은 같고, 폰을 2년 안에 바꿀 가능성이 있으면 12개월이 안전합니다. SK텔레콤 산식으로 월 8만 9,000원 요금제를 12개월 쓰고 해지하면 24개월 약정은 약 17만 7,000원을 돌려내야 하지만, 12개월 약정은 만료라 0원입니다. 약정 기간은 가입 뒤 12개월↔24개월로 바꿀 수 없습니다.</p></details>
+<details open><summary>자급제폰이나 중고폰도 핸드폰 요금할인 받을 수 있나요?</summary><p>받을 수 있습니다. 자급제폰은 지원금을 받은 적이 없어 바로 대상이고, 중고폰은 SK텔레콤 기준 최초 개통 후 24개월이 지나야 합니다. 다른 통신사에서 지원금을 받고 개통한 폰은 개통 6개월 뒤부터 가입할 수 있습니다(본인 인증 시 지점·고객센터에서는 예외 가능).</p></details>
+<details open><summary>공시지원금 받은 폰인데 지금 선택약정으로 바꿀 수 있나요?</summary><p>남은 지원금 위약금을 내면 가능합니다. SK텔레콤은 자사 단말이면 &#x27;공통지원금 위약금 납부 시 가입 가능&#x27;, KT는 &#x27;공시지원금을 받았더라도 할인반환금을 납부하는 경우&#x27; 가입 대상으로 둡니다. 위약금이 크면 지원금 약정이 끝난 뒤 신청하는 편이 보통 낫습니다. 어느 쪽이 유리한지는 공시지원금 vs 선택약정 글의 &#x27;월 요금 × 6&#x27; 기준으로 계산하세요.</p></details>
+<details open><summary>알뜰폰도 선택약정 25% 할인이 되나요?</summary><p>되지 않습니다. 선택약정 25%는 SK텔레콤·KT·LG U+ 통신 3사 회선의 제도이고, 알뜰폰은 대상이 아닙니다. 알뜰폰 요금은 이미 낮게 책정된 대신 이 할인이 없습니다.</p></details>
+<h2>다른 모델 가격·스펙</h2><ul><li><a href="https://allthatphone.github.io/phone-online-activation-guide/">휴대폰 온라인 개통 방법 — 공식몰 주문부터 셀프개통·자동개통까지 통신 3사 비교</a></li><li><a href="https://allthatphone.github.io/folder-phone-activation-guide/">2G폰개통 방법 — 2G폰·01X 번호는 개통 불가, LTE 폴더폰은 HD Voice 지원부터 확인</a></li><li><a href="https://allthatphone.github.io/phone-activation-guide/">핸드폰 개통 방법 — 신규·번호이동은 신분증 + 안면인증(또는 모바일 신분증·당일 초본), 기기변경은 추가 인증 없음 · 개통 시간·내 명의 개통 조회까지</a></li><li><a href="https://allthatphone.github.io/galaxy-s25-edge-price-spec/">갤럭시S25엣지 가격·출고가·스펙 — 256GB 149만 6,000원, 512GB는 4월 인상 후 174만 9,000원</a></li><li><a href="https://allthatphone.github.io/galaxy-s25-plus-price-spec/">갤럭시S25플러스 가격·출고가·스펙 — 256GB 135만 3,000원, S26 플러스와 차이 24만 8,600원</a></li><li><a href="https://allthatphone.github.io/iphone-compare-lineup/">아이폰 비교하기 — 지금 파는 7종 화면·카메라·배터리·무게 한 표, 동영상 22~43시간</a></li></ul>
+<h2>출처</h2><ul class="src"><li><a href="https://m.tworld.co.kr/product/callplan/NA00004430" rel="nofollow noopener">SK텔레콤 T world — 선택약정 할인(혜택 대상 단말·가입 불가 요금제·12/24개월·가입 채널·고객센터 1599-0011·할인 산식·유지 기간·요금제 변경 월 1회·할인반환금 산식·반환금 승계)</a> (2026-11-22 확인(본문에 2025-07-22 이후 기준 표기))</li><li><a href="https://shop.kt.com/m/smart/aboutFeeDiscountPopCont.do" rel="nofollow noopener">KT닷컴 — 요금할인 25%(선택약정) 가입 대상·재약정 시 할인반환금 유예 조건(사이트 기존 글 공시지원금 vs 선택약정 확인값)</a> (2026-11-08 확인)</li><li><a href="https://news.lguplus.com/7439" rel="nofollow noopener">LG유플러스 뉴스룸 — 25% 선택약정할인, 위약금 없이 재약정(약정 기간 관계없이 유예)</a> (2018-01-15)</li><li><a href="https://www.korea.kr/news/reporterView.do?newsId=148888194" rel="nofollow noopener">대한민국 정책브리핑 — 매달 통신 요금의 25%를 할인받는 방법(자급제·중고폰·약정 만료 이용자 대상, 1년 약정 선택, 스마트초이스 IMEI 조회)</a> (2021-06-04)</li><li><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148928325" rel="nofollow noopener">대한민국 정책브리핑 — 제각각 통신요금, 스마트초이스에서 한 번에 비교(지원금 vs 25% 요금할인 비교·할인반환금 조회)</a> (2024-04-19)</li><li><a href="https://toss.im/tossfeed/article/phone-bill-discount" rel="nofollow noopener">토스피드 — 선택약정으로 휴대폰 요금 할인 받기(자급제·중고폰 가능, 알뜰폰 제외, 만료 후 재가입)</a> (2023-03-30)</li></ul></main>
+<footer><div class="wrap">올댓폰 가격노트 · 휴대폰 모델별 출고가·스펙·실구매가를 한눈에<br>가격은 기준일 이후 바뀔 수 있으니 구매 전 최신 가격을 확인하세요. 이 사이트의 공동구매 안내는 운영자와 관련된 올댓폰 카페 게시글을 기준으로 합니다.<br>올댓폰은 전국 휴대폰 성지 매장이 입점한 네이버 카페로, 3개월 이상·문제 0건 매장의 현금가만 올리는 인증 시세표와, 카페가 직접 운영해 요금제·부가서비스 강제가 없는 택배 공동구매를 함께 제공합니다. <a href="https://allthatphone.github.io/about/">올댓폰 소개</a> · <a href="https://htglove.github.io/regions/">지역별 성지 정보</a></div></footer>
+</body></html>
