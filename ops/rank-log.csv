@@ -348,3 +348,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-20 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/19 20:34~20:45 · 페이지 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 56건 중 색인1(FAQ) · 최근7일 노출5·클릭1(쿼리 site:github.io·올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
 2026-11-20 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/19 · 진단 색인7(11/18 갱신) · 같은 6편 · 수집현황 차트 11/17 완료24 · R-027 18건(11/17)·R-028~R-030 아직 미반영 · 출처 GPT
 2026-11-20 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/19 · 글별 56건 Indexed successfully22·발견미수집24·미발견10 · 듀오·S26 울트라·스마트폰 추천·S26 4편 발견미수집→Not discovered · 사이트 전체 'No data available' · 출처 GPT
+2026-11-23 09:30,websearch,site:allthatphone.github.io,(사이트),미색인,,주간 분석 웹검색 기준 · site: 결과에 이 사이트 0건(65편 게시)
+2026-11-23 09:30,websearch,샤오미 18 프로 맥스 가격 출고가,https://allthatphone.github.io/xiaomi-18-pro-max-price-spec/,미노출,,주간 보충 · D+2 · 상위 mi.com/kr·koreancenter·해외 매체
+2026-11-23 09:30,websearch,SKT 기기변경 방법 T다이렉트샵,https://allthatphone.github.io/skt-upgrade-guide/,미노출,,주간 보충 · D+0 · 상위 T world·moyoplan Q&A·sktelecom 뉴스룸
+2026-11-23 09:30,websearch,아이폰18 프로 vs 갤럭시 S26 울트라 비교,https://allthatphone.github.io/iphone-18-pro-vs-galaxy-s26-ultra/,미노출,,주간 보충 · D+1 · 상위 tomsguide·techrepublic·phonearena 등 해외
+2026-11-23 09:30,websearch,휴대폰 온라인 개통 방법,https://allthatphone.github.io/phone-online-activation-guide/,미노출,,주간 보충 · D+2 · 상위 moyoplan·toss·shop.kt.com·ajd
+2026-11-23 09:30,websearch,핸드폰 요금할인 신청 방법 선택약정 25%,https://allthatphone.github.io/selective-discount-apply-guide/,미노출,,주간 보충 · D+1 · 상위 moyoplan·toss·shop.kt.com·T world·yellowit·jab-guyver
+2026-11-23 09:30,websearch,갤럭시 S25 플러스 가격 출고가,https://allthatphone.github.io/galaxy-s25-plus-price-spec/,미노출,,주간 보충 · D+1 · 상위 ajd·moyoplan·khan·samsung.com·삼성 뉴스룸
+2026-11-23 09:30,websearch,아이폰 비교하기 모델별 차이 2026,https://allthatphone.github.io/iphone-compare-lineup/,미노출,,주간 보충 · D+2 · 상위 tilnote·choicemon·해외 매체
+2026-11-23 09:30,websearch,휴대폰 출고가 인하 2026년 11월,(사이트),미노출,,주간 보충 · 새 가격 인하 소식 확인용 — 국내 인하 보도 없음(인상·메모리 가격 기사 위주)
+2026-11-23 09:30,websearch,스마트폰 국내 출시 2026년 11월 신제품 출고가,(사이트),미노출,,주간 보충 · 11월 국내 새 출시는 샤오미 18 프로 시리즈(mi.com/kr launch) 외 확인 안 됨 — 이미 글 있음
