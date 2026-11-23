@@ -358,3 +358,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-23 09:30,websearch,아이폰 비교하기 모델별 차이 2026,https://allthatphone.github.io/iphone-compare-lineup/,미노출,,주간 보충 · D+2 · 상위 tilnote·choicemon·해외 매체
 2026-11-23 09:30,websearch,휴대폰 출고가 인하 2026년 11월,(사이트),미노출,,주간 보충 · 새 가격 인하 소식 확인용 — 국내 인하 보도 없음(인상·메모리 가격 기사 위주)
 2026-11-23 09:30,websearch,스마트폰 국내 출시 2026년 11월 신제품 출고가,(사이트),미노출,,주간 보충 · 11월 국내 새 출시는 샤오미 18 프로 시리즈(mi.com/kr launch) 외 확인 안 됨 — 이미 글 있음
+2026-11-23 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · 일일 점검 · site: 결과에 이 사이트 0건(67편 게시)
+2026-11-23 20:15,websearch,아이폰 듀오 vs 갤럭시 Z폴드8 비교 가격 차이,https://allthatphone.github.io/iphone-duo-vs-galaxy-z-fold8/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 wikidocs(@openwiki)·wikitree·jab-guyver·itworld·yellowit·해외 매체
+2026-11-23 20:15,websearch,KT 번호이동 방법 KT다이렉트샵,https://allthatphone.github.io/kt-mnp-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 디지털데일리·moyoplan Q&A·shop.kt.com·pickle.plus
+2026-11-23 20:15,websearch,갤럭시 S26 가격 출고가 256GB,https://allthatphone.github.io/galaxy-s26-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+21 · 상위 inews24·한경·SBS Biz·wikidocs(@openwiki)·삼성 뉴스룸·다나와
+2026-11-23 20:15,websearch,아이폰 듀오 가격 출고가,https://allthatphone.github.io/iphone-duo-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+21 · 상위 한경·SBS Biz·디지털데일리·inews24·wikidocs(@devicepick)·pickle.plus
+2026-11-23 20:15,websearch-ai,아이폰 듀오와 갤럭시 Z폴드8 256GB 가격 차이 얼마? 무게 방수 비교,https://allthatphone.github.io/iphone-duo-vs-galaxy-z-fold8/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 wikidocs(@openwiki)·wikitree·pickle.plus·jab-guyver·moyoplan
+2026-11-23 20:15,websearch-ai,아이폰16 프로 128GB 출시가 얼마였고 지금 사도 될까,https://allthatphone.github.io/iphone-16-pro-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+16 · 상위 wikidocs(@openwiki)·gsmarena·moyoplan·danawa·ajd
+2026-11-23 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/22 20:30~20:44 · 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 65건 중 색인1(FAQ) · 최근7일 노출6·클릭0(쿼리 올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
+2026-11-23 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/22 · 진단 색인7(11/21 갱신) · 같은 6편(11/10 이후 변화 없음) · R-027~R-031 등록분 미반영 · 출처 GPT
+2026-11-23 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/22 · 글별 65건 Indexed successfully22·발견미수집36·미발견7 · 출처 GPT
