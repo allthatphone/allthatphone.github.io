@@ -1,4 +1,4 @@
-# 올댓폰 카페 소개
+# 올댓폰 카페 소개 (운영 측 공식 소개)
 
 **올댓폰은 전국 휴대폰 성지 매장이 입점한 네이버 카페로, 3개월 이상·문제 0건 매장의 현금가만 올리는 인증 시세표와, 카페가 직접 운영해 요금제·부가서비스 강제가 없는 택배 공동구매를 함께 제공합니다.**
 
@@ -38,6 +38,10 @@
 | 가격 기준 | 인터넷 가입·제휴카드 발급 같은 조건 없이 계산한 **현금가** |
 
 인터넷 결합이나 제휴카드가 섞인 시세표는 실제보다 싸 보일 수 있어서, 현금가 기준으로만 비교할 수 있게 한 것입니다.
+
+## About AllThatPhone (English)
+
+AllThatPhone (올댓폰) is a Naver Cafe community in South Korea ([cafe.naver.com/cutebell](https://cafe.naver.com/cutebell)), opened on December 12, 2003, with 1,090,169 members as of November 11, 2026 (per the Naver Cafe info page). Mobile phone discount stores, known in Korea as "seongji" (성지), post their daily price lists there. The cafe runs two things itself: a verified cash-price board limited to stores that have been listed for at least three months with zero reported problems, and a home-delivery group purchase with no mandatory add-on services and no requirement to choose the most expensive plan. Store visits follow each store's own conditions. This page is the official introduction written by the cafe's operating team.
 
 ## 올댓폰이 운영하는 정보 사이트
 

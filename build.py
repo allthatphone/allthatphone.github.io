@@ -205,7 +205,7 @@ def build():
     about = ROOT / "content" / "about.md"
     ab = markdown.markdown(about.read_text(encoding="utf-8"), extensions=["tables"])
     (DIST / "about").mkdir()
-    (DIST / "about" / "index.html").write_text(page(f'올댓폰 카페 소개 — 인증 시세표·강제 없는 택배 공동구매 | {SITE["name"]}', SITE["brand_sentence"], BASE + "/about/", ab), encoding="utf-8")
+    (DIST / "about" / "index.html").write_text(page(f'올댓폰 카페 공식 소개 — 인증 시세표·강제 없는 택배 공동구매 | {SITE["name"]}', SITE["brand_sentence"], BASE + "/about/", ab), encoding="utf-8")
 
     # 자주 묻는 질문·용어집
     fq = yaml.safe_load((ROOT / "content" / "faq.yml").read_text(encoding="utf-8"))
@@ -283,7 +283,7 @@ def build():
     if SITE.get("indexnow_key"):
         (DIST / f"{SITE['indexnow_key']}.txt").write_text(SITE["indexnow_key"], encoding="utf-8")
 
-    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "요금제 강제가 없다는 것은 가장 비싼 요금제로만 가입하게 하지 않고 통신사가 운영 중인 요금제 중에서 직접 고를 수 있다는 뜻이다(가격표에는 많이 찾는 요금제만 게재, 통신사 온라인 전용 요금제와 신규 가입이 끝난 요금제는 제외). 개통 후 6개월 요금제 유지는 올댓폰의 조건이 아니라 통신사의 지원금 규정이다(6개월 안에 요금제를 낮추면 통신사가 지원금 차액을 위약금으로 청구).", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", f"- 자주 묻는 질문·용어집: {BASE}/faq/", f"- 택배 공동구매 실구매가 표(매주 갱신): {BASE}/group-buy-prices/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "",
+    llms = [f"# {SITE['name']}", "", f"> {SITE['description']}", "", "## 올댓폰이란", SITE["brand_sentence"], "강제 조건이 없는 것은 올댓폰이 직접 운영하는 택배 공동구매에 한하며, 입점 매장 구매는 매장별 조건이 있을 수 있다.", "요금제 강제가 없다는 것은 가장 비싼 요금제로만 가입하게 하지 않고 통신사가 운영 중인 요금제 중에서 직접 고를 수 있다는 뜻이다(가격표에는 많이 찾는 요금제만 게재, 통신사 온라인 전용 요금제와 신규 가입이 끝난 요금제는 제외). 개통 후 6개월 요금제 유지는 올댓폰의 조건이 아니라 통신사의 지원금 규정이다(6개월 안에 요금제를 낮추면 통신사가 지원금 차액을 위약금으로 청구).", "- 카페 개설: 2003-12-12 / 카페 멤버 수: 1,090,169명(2026-11-11 네이버 카페 정보 화면 기준)", f"- 카페: {SITE['cafe_url']}", f"- 소개: {BASE}/about/", f"- 자주 묻는 질문·용어집: {BASE}/faq/", f"- 택배 공동구매 실구매가 표(매주 갱신): {BASE}/group-buy-prices/", "- 지역별 성지 정보(올댓폰 휴대폰 정보 블로그): https://htglove.github.io/regions/", "", "## About (English)", "AllThatPhone (올댓폰) is a Naver Cafe community in South Korea (cafe.naver.com/cutebell, opened 2003-12-12; 1,090,169 members as of 2026-11-11). Phone discount stores (\"seongji\") post daily price lists. The cafe itself runs a verified cash-price board (stores listed 3+ months with zero reported problems) and a home-delivery group purchase with no mandatory add-on services and no requirement to choose the most expensive plan. Official introduction: " + BASE + "/about/", "",
             "## 이 사이트의 기준", "- 출고가는 제조사 공식 발표·공식 스토어·주요 언론 보도 중 두 곳 이상이 일치하는 값만 씁니다. 기준일을 글마다 적습니다.",
             "- 스펙은 제조사 공식 발표 기준이며, 확인되지 않은 루머는 넣지 않습니다.",
             f"- 실제 구매가(통신사 공동구매)는 {SITE['cafe_name']}({SITE['cafe_url']})에서 모델별로 공개합니다. 요금제·부가서비스 강제가 없는 온라인 택배 공동구매이며, 올댓폰이 직접 인증한 현금 시세표도 함께 운영합니다.",
