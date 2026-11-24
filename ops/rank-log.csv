@@ -368,3 +368,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-23 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/22 20:30~20:44 · 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 65건 중 색인1(FAQ) · 최근7일 노출6·클릭0(쿼리 올댓폰) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
 2026-11-23 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/22 · 진단 색인7(11/21 갱신) · 같은 6편(11/10 이후 변화 없음) · R-027~R-031 등록분 미반영 · 출처 GPT
 2026-11-23 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/22 · 글별 65건 Indexed successfully22·발견미수집36·미발견7 · 출처 GPT
+2026-11-24 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · 일일 점검 · site: 결과에 이 사이트 0건(70편 게시)
+2026-11-24 20:15,websearch,폴드8 vs 플립8 가격 차이 비교,https://allthatphone.github.io/galaxy-z-fold8-vs-galaxy-z-flip8/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 wikidocs(@wondergrid·@openwiki)·daum·inews24·wikitree·yellowit·jab-guyver
+2026-11-24 20:15,websearch,아이폰 기기변경 방법,https://allthatphone.github.io/iphone-upgrade-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 pickle.plus·discussionskorea.apple.com·yellowit·itworld·moyoplan(데이터 이전 위주)
+2026-11-24 20:15,websearch,휴대폰 위약금 조회 방법 할인반환금,https://allthatphone.github.io/phone-penalty-check-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 moyoplan·ajd·accio
+2026-11-24 20:15,websearch,갤럭시 Z플립8 가격 출고가,https://allthatphone.github.io/galaxy-z-flip8-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+22 · 상위 daum·inews24·wikidocs·wikitree·SBS Biz·머니투데이·삼성 뉴스룸
+2026-11-24 20:15,websearch-ai,갤럭시 Z폴드8과 Z플립8 256GB 출고가 차이 얼마? 어떤 걸 사야 할까,https://allthatphone.github.io/galaxy-z-fold8-vs-galaxy-z-flip8/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 daum·wikidocs(@wondergrid)·inews24·moyoplan·ajd
+2026-11-24 20:15,websearch-ai,공부폰 추천 가격 얼마? 수험생 폴더폰 출고가 2026,https://allthatphone.github.io/study-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+18 · 상위 koreatimes·ajd·daum·moyoplan Q&A
+2026-11-24 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/23 20:30~20:43 · 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 68건 중 색인1(FAQ) · 최근7일 노출6·클릭0(쿼리 올댓폰 노출2·평균12.5, 페이지 about·faq) · 사이트맵 3종 가져올 수 없음 · 출처 GPT
+2026-11-24 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/23 · 진단 색인7(11/21 갱신) · 같은 6편(11/10 이후 변화 없음) · 출처 GPT
+2026-11-24 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/23 · 글별 68건 Indexed successfully22·발견미수집37·미발견9 · Site Explorer Indexed8 · 출처 GPT
