@@ -385,3 +385,13 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-25 20:15,websearch,갤럭시 Z폴드8 가격 출고가,https://allthatphone.github.io/galaxy-z-fold8-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+21 · 상위 daum·inews24·asiae·fnnews·wikidocs·wikitree·삼성 뉴스룸
 2026-11-25 20:15,websearch-ai,갤럭시 S26과 S26 울트라 256GB 출고가 차이 얼마? 어떤 걸 사야 할까,https://allthatphone.github.io/galaxy-s26-vs-galaxy-s26-ultra/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 samsung.com/sec·mozillion·inews24·yellowit·pickle.plus
 2026-11-25 20:15,websearch-ai,효도폰 추천 가격 얼마? 부모님 폴더폰 출고가 2026,https://allthatphone.github.io/senior-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+18 · 상위 ajd·daum·mt.co.kr·SKT 뉴스룸·moyoplan
+2026-11-26 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · 일일 점검 · site: 결과에 이 사이트 0건(76편 게시)
+2026-11-26 20:15,websearch,휴대폰 공시지원금 조회 방법,https://allthatphone.github.io/subsidy-lookup-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 moyoplan Q&A·bokjiro·toss
+2026-11-26 20:15,websearch,휴대폰 신규 개통 방법,https://allthatphone.github.io/phone-new-line-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 moyoplan FAQ·Q&A·한경·세계일보
+2026-11-26 20:15,websearch,아이폰17 vs 아이폰17 프로 가격 차이 비교,https://allthatphone.github.io/iphone-17-vs-iphone-17-pro/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 danawa·mozillion·wikidocs·itworld·vodafone
+2026-11-26 20:15,websearch,아이폰17 가격 출고가,https://allthatphone.github.io/iphone-17-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+22 · 상위 insight·ajd·moyoplan·pickle.plus·newsis·wikidocs
+2026-11-26 20:15,websearch-ai,아이폰17과 아이폰17 프로 256GB 출고가 차이 얼마? 어떤 걸 사야 할까,https://allthatphone.github.io/iphone-17-vs-iphone-17-pro/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · D+0 · 상위 danawa·insight·wikidocs·pickle.plus·11st
+2026-11-26 20:15,websearch-ai,키즈폰 추천 가격 얼마? 초등학생 키즈폰 출고가 2026,https://allthatphone.github.io/kids-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · D+19 · 상위 moyoplan Q&A·ajd·daum·gola4u
+2026-11-26 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/26 14:17~14:38 · 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 76건 중 색인1(FAQ) · 최근7일 노출6·클릭0(쿼리 올댓폰 노출3·평균9.0) · 사이트맵 3종 가져올 수 없음(상세 마지막 읽기 11/3) · 출처 GPT
+2026-11-26 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/26 · 진단 색인7(11/24 갱신) · 같은 6편 · 로그인 상태 참고값 · 출처 GPT
+2026-11-26 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/26 · 글별 76건 Indexed successfully22·발견미수집44·미발견10 · Site Explorer Indexed11(이전 8) · 출처 GPT
