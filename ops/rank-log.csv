@@ -395,3 +395,9 @@ checked_at,engine,keyword,url,result,rank,note
 2026-11-26 20:15,gsc,(콘솔),(사이트),색인3,,GPT R-016 11/26 14:17~14:38 · 보고서 색인3·미색인9(11/16 갱신) · 글별 URL검사 76건 중 색인1(FAQ) · 최근7일 노출6·클릭0(쿼리 올댓폰 노출3·평균9.0) · 사이트맵 3종 가져올 수 없음(상세 마지막 읽기 11/3) · 출처 GPT
 2026-11-26 20:15,naver,site:allthatphone.github.io,(사이트),노출 홈1+글6,,GPT R-016 11/26 · 진단 색인7(11/24 갱신) · 같은 6편 · 로그인 상태 참고값 · 출처 GPT
 2026-11-26 20:15,bing,(콘솔),(사이트),색인22,,GPT R-016 11/26 · 글별 76건 Indexed successfully22·발견미수집44·미발견10 · Site Explorer Indexed11(이전 8) · 출처 GPT
+2026-11-27 20:15,websearch,site:allthatphone.github.io,(사이트),미색인,,웹검색 기준 · 일일 점검 · site: 결과에 이 사이트 0건(78편 게시)
+2026-11-27 20:15,websearch,LG유플러스 기기변경 방법,https://allthatphone.github.io/lguplus-upgrade-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 lguplus.com·ajd·moyoplan·theinfohunter·ddaily
+2026-11-27 20:15,websearch,아이폰 싸게 사는 방법,https://allthatphone.github.io/iphone-buy-cheap-guide/,미노출,,웹검색 기준 · head_keyword · D+0 · 상위 ajd·moyoplan·pickle.plus·enuri
+2026-11-27 20:15,websearch,아이폰17 프로 가격 출고가,https://allthatphone.github.io/iphone-17-pro-price-spec/,미노출,,웹검색 기준 · 모델명 가격 · D+23 · 상위 insight·pickle.plus·ajd·11st·itworld·wikidocs·apple
+2026-11-27 20:15,websearch-ai,아이폰 자급제랑 통신사 지원금 중 어디서 사야 2년 총비용이 싸? 아이폰18 프로 기준,https://allthatphone.github.io/iphone-buy-cheap-guide/,미인용,,웹검색 기준 AI 인용 점검(최신 글) · 상위 pickle.plus·moyoplan·danawa·foxcg·choicemon
+2026-11-27 20:15,websearch-ai,학생폰 추천 가격 얼마? 중고등학생 스마트폰 출고가 2026,https://allthatphone.github.io/student-phone-price-spec/,미인용,,웹검색 기준 AI 인용 점검(순번) · 상위 moyoplan Q&A·daum·ddaily·quasarzone

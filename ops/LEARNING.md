@@ -58,6 +58,7 @@
 - 관찰(11/23 20:15 일일 점검, 게시 67편 D+0~21): 웹검색 site: 0/67 · 키워드 4개(듀오 vs 폴드8·KT 번호이동·S26·듀오)·AI 질문 2개 미노출 — 비교 질문(듀오 vs 폴드8)은 wikidocs(@openwiki)·wikitree·jab-guyver·pickle.plus가 우리와 같은 '100만원·53g·방수' 숫자로 이미 상위 · 배포본 robots(Sitemap 3줄)·sitemap.xml(71 loc)·canonical·확인 태그 이상 없음(github.io·IndexNow 모두 클라우드 403, 헤더 미확인), 수정 없음
 
 - 11/26 일일 점검 관찰: 게시 76편 D+0~24, 웹검색 site: 0건 지속. GPT 11/26 콘솔: 구글 sitemap.xml 상세 '마지막 읽기 11/3·읽을 수 없음'(목록 공란과 다름), 배포 파일·robots·canonical 이상 없음(Claude가 main 파일로 재확인, 수정 없음). Bing 루트 집계 Indexed 8→11이나 글별 22 그대로.
+- 11/27 일일 점검 관찰: 게시 78편 D+0~25, 웹검색 site: 0건 지속 · 새 글 2편(LGU+ 기기변경·아이폰 싸게 사는 방법) head 미노출, 상위는 ajd·moyoplan·pickle.plus 같은 비교 서비스 콘텐츠 · AI 질문 2개 미인용 · GPT 11/27분은 20:30 처리 전(마지막 콘솔 11/26) · main의 robots·sitemap(82 URL)·canonical 이상 없음(공개 응답은 클라우드 프록시 차단으로 직접 확인 못 함) · IndexNow 클라우드 차단 지속(대기 59).
 
 ## 2. 지금 시험 중인 가설 (주간 분석에서 지지/약화/폐기 판정)
 | 번호 | 가설 | 확인 방법 | 상태 |
